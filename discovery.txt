@@ -1,0 +1,1822 @@
+QUEST
+postmortem
+quin says ...  Dec 20, 2010 @ 12:46pm This is a good bit of time wasting fun. The only change I would make would be for the ship to have an extra couple hitpoints, which get repaired in cities for 1 gold a piece.
+
+tiles of world 256x128
+    550x400 zoom 1
+    320x240 zoom 2
+hide/ reveal tile
+    hide all.  reveal those under mask.  half reveal edge.
+navigate around land or rock
+blocked by rock
+cannon
+shoot rock
+city ruins pickup, changes into city
+rock
+giant shark
+pirate
+pirate with cannon
+big pirate
+pirate boss
+giant pirhanna darts back and forth, chomping teeth quickly
+pirhana
+    blech, pirhana, we cannot eat that
+purple poison blowfish
+    subtract food
+    subtract food rate until visiting port
+shark
+    blech we cannot shark
+giant shark moves quickly
+box behind text
+text at top of screen
+text at bottom of screen
+text only at bottom on black bar
+black text
+    cannot see white text on top black fog
+cannot see white text on white ice
+    (and not really on light land
+hydra:  what is that?
+giant fish or turtle
+    shoot it and it turns away
+    fish goes back and forth (left and right between land)  sneak through.
+giant blow fish
+    puff up
+    spines subtract food
+    radiate blowfish
+    radiate poison spines
+hydra
+    spawns children
+    shoot it
+    it respawns
+    any alive, after 3 seconds, respawn that one
+    none alive:  spawn coin at each spot
+    it shoots back
+monster
+    die
+    spawn fish
+dragon
+    shoots
+    high health
+    big
+dragon head popping out of water
+    dragon shoots
+    hit dragon, hurt dragon, 10 health; dragon flickers, if flickering, do not hurt more.
+    dragon rush through water left or right or top or bottom
+    dragon shoots triple
+shoot only left or right (toward facing)
+get second cannon to shoot both left and right
+north and south poles
+teeth of dragon shut  go in mouth and into belly
+cthulhu head tentacles
+tentacle
+    pop out of water and submerge and appear again
+one-way entrance:  crag that can shoot left from one way, not the other
+    on platformer have gravity and steps for one way exit (drop down)
+wrap ocean
+hydra that shoots four ways
+two-way shooting pirate
+octopus tentacle from right goes left, retract and repeat
+octopus tentacle popping out of water
+    8 octopus tentacles goes underwater and appears in outer ring
+    pop up in inner ring
+    only appears when player in center (dark area with evil eyes)
+    2 tiles tall
+    swings across (lord of the rings, two towers)
+    
+respawn enemy or fish
+    save spawn x, y
+    off screen and dead
+    player visits city
+serpent
+spice
+orange:  increase food container
+sauerkraut:  increase food container
+monster attack city
+pirate attack city
+whirlpool
+    hazard that cannot be shot
+here be monsters graphic style
+large distance to travel
+large ocean to travel with dotted food in between
+large ocean needs food container upgrade or speed upgrade
+sharp rock
+follow fish to travel further
+reveal fog
+tutor reveal fog
+tutor navigate around land
+save point
+fish swim around (some fish swim near land?)  hit by bullet, disappear.  collide for food.  fish collide and reflect off land.
+    fish on layer under rock
+hint at land to be found depth of ocean
+    fish?  shallow water fish?
+bones near boss
+bigger fog brush
+cannon shoots cannonball
+countdown food on time
+countdown food on move
+recognize food, get food
+lose ship, lose gold on ship
+lose city, lose gold in city
+pickup gem under rock
+hold down fire to fire cannon in four directions.
+respawn ship at last touched city
+sign:  message in bottle
+respawn fish
+    off screen, at first spawn point, after a while
+cannon
+edge tiles
+cannon 2
+emerald
+angler shoots yellow beam from eye
+giant crab, hotspot at eye stalks.  pincers crush.  
+hydra:  three heads.  if one survives, the other two grow back.
+serpent:  vulnerable scales.  going around path.  
+dark water, fog grows thicker
+snow dragon (ice cutter ship)
+discovery ship (wider view)
+dragon turtle
+dragon king (turtle):  shoots starfish (crazy arcade boss)
+dragon king shakes back and forth (left and right)
+dragon king breathes whirlwind spout
+dragon king withdraws in shell.  legs and head are hot spots.  
+bullet deflects 90 degree off turtle shell
+turtle like fish, but with drag and sometimes speeds up
+little fish, big fish, boss fish
+mermaid gives treasure
+treasure chest pops open four items
+if three match, then big jackpot for getting them all nearly at same time.  combo!  a lot of gold.
+whirlwind deflects object 90 degrees off its axis and sends it accelerating with drag.  
+dragon king stomps and makes tsunami wave
+tsunami crashes ship
+vortex sucks ship down
+sea pipes shoot starfish
+clam has giant pearl inside but clamps shut periodically, or if shot.  clam spits out bullets
+
+cannonball reflects off ice mirror, 45 degree angle.  or 180 degree mirror.
+ice
+icebreaker
+sail 2
+cannonball
+triple cannon
+cargo
+treasure chest ?  (random?)  random item spawn adjacently?  
+    sunken treasure?  treasure map?  wind waker.
+    three stars in a row, free spin:  more treasures nearby.  treasure map puts X on map.
+edge tiles
+on get powerup, immediately upgrade
+temporary speed boost
+temporary invulnerable
+rotating shields
+extra wind:  speed boost.  double tap to wind.
+monster drops food
+deliver cargo to city to get gold
+get cargo to keep upgrade.  if die respawn upgrade
+monster gibs
+probe reports 
+flare:  light up in a direction
+flash cannon:  light up in a direction
+seagull, fly in a direction
+telescope, look in a direction
+map screen
+    X open/close map
+    512x256, MAP 25%
+    zoom 2.  tilemap.  set by tile reveal
+    copy map data
+        land
+        fog
+        monster
+        legend
+    background:  here be monsters
+    sprite of bosses
+if you hit city, lose gold, lose city
+spend gold to make city
+trade from city to city to gain gold
+gold
+spice
+smooth fog, with bitmap brush reveal
+minimap
+scroll around
+ludum dare dragon
+python
+joke
+    brave mapmaker, go forth and explore
+    here be monsters!
+        find them and map them, royal envoy
+    brave sir robin
+black webpage, centered
+leave gibs where died
+found city increases gold by map complete
+galaga:  purple pirate ship hijacks.  respawn at city.  hijack pirate ship.  now have two ships.  north-south, shooting.
+achievement
+    sail around the world and revisit same port without stopping at another
+
+QUEST COMPLETE
+
+
+PRIOR ART
+12/18/2010 07:15:00
+
+pirates?
+starflight encounter alien and shoot
+civilization explore map
+starflgiht explore planet
+geometry wars explore planet
+oregon trail fuel and food
+
+square view (17x17 tiles or 15x15 tiles, player in center)
+tree of life, explore roots of a tree
+
+
+REVIEW OF TERRA INCOGNITA: THE NAGS SOCIETY HANDBOOK
+http://www.rpg.net/reviews/archive/10/10685.phtml
+
+'''Terra Incognita is a pulp/steampunk version of our Earth, but with a rather esoteric premise: the PCs are members of the National Archaeological, Geographic, and Submarine Society--in other words, they're Nags. The characters are a sort of cross between high-tech steam-age spies and university professors. Their mission is to explore the world's mysteries, and then protect the rest of humanity from what they discover. I have to admit that as a GM I might have trouble quickly explaining this concept to potential players, but this seemingly strange premise nonetheless leads to a lot of interesting possibilities.'''
+
+call of cthulhu expedition to antartica
+white out from blizzard
+monsters that attack
+the thing
+
+snow whiteout on map
+antartica
+previous expedition
+keys
+zombies
+beast
+
+osmosis:  suck smaller circle
+
+cellcraft:  need energy to move
+
+spore: cell:  run from bigger, chase smaller.  get bigger.
+
+windwaker:  sailing, 
+
+phantom hourglass:  steam boat.  cannon shoot flyer.  
+
+galcon:  planet has ships.  send ships to take over another planet.
+kdice:  build up population to attack neighbor
+risk:  build up population to attack neighbor
+
+
+rub scratch cards
+look for matching symbols
+
+memory match:  turn over pairs of cards
+
+robot wants kitty:  upgrade movement:  doublejump, key to locked door, dash
+
+civilizatoin:  ship that can sail in deep water, aircraft that can fly.  
+
+
+ship only shoots left and right
+
+starcraft fog of war without minimap.  move arrow keys around to move map or move vessel on map.  when move character, auto center on map.  
+
+
+
+
+
+starcraft fog of war:  discover where enemy is building
+
+tile 25x25
+minimap 1x1
+
+tile 16x16
+minimap 1x1
+zoom 2
+
+
+
+Our Airship flys!
+Posted by iamagiantnerd
+December 17th, 2010 11:59 pm
+http://www.ludumdare.com/compo/2010/12/17/our-airship-flys/
+
+
+Universal Conquest
+Posted by Endurion
+December 17th, 2010 11:48 pm
+
+
+
+My Game – Concept and First Demo
+Posted by MrDude
+December 17th, 2010 11:47 pm
+Edit: I forgot the “concept” part!
+
+My game’s title is “Probe”. It is about a little robot that is sent to explore a mysterious alien fortress and runs into hostile machines and even finds usable alien technology. (Meaning Metroid-style upgrades)
+http://www.ludumdare.com/compo/2010/12/17/my-game-concept-and-first-demo/
+
+
+
+
+
+plant
+harvest
+
+upgrade ship
+buy cannons
+buy shields
+collect wealth
+
+
+http://boardgamegeek.com/boardgame/27165/age-of-discovery
+
+http://boardgamegeek.com/boardgame/22545/age-of-empires-iii-the-age-of-discovery
+
+
+unlock new areas
+big map
+explore all
+
+
+
+tree of life explore inside of tree
+
+
+discover technology tree
+
+civilization 
+diablo ii
+world of warcraft upgrades
+
+unlock new areas
+unlock new recipes
+
+tea in professor layton
+
+mystery
+
+professor layton mysteries
+
+jigsaw puzzle
+professor layton camera parts
+
+exploration
+
+http://www.ludumdare.com/compo/2010/12/17/not-a-minesweeper-clone/
+Minesweeper
+
+[scandal?]  political scandal, elimination
+nightmare:  who
+clue
+
+whodunit?
+
+texas hold'em:  reveal next card
+
+eleusis:  what is the pattern?  (induction)
+
+galaga '88:  space exploration, sort of.  progression.
+
+starflight:  discover planets with ecosystems
+
+http://en.wikipedia.org/wiki/Space_Shuttle_Discovery
+
+diablo map
+
+Settlers of Cataon
+(kevin sauanders said it was not about discovery)
+
+http://gmc.yoyogames.com/index.php?showtopic=474905
+
+tarot divination
+
+solitaire
+
+upgrade complete
+robot wants kitty
+
+anticipating card to draw in bartok
+anticipating card in uno
+anticipating card in spades
+
+feeling of surprise
+
+DOOD(sp?)
+ancient domain of mystery (ADOM)
+diablo
+nethack
+rogue
+
+trip on a funny boat
+
+card game of trading with ships that go to islands and trade
+
+
+
+
+SPINOFFS
+
+Steampunk side-scrolling explorer
+
+Yellow submarine (beatles) silly shoot'em up
+
+
+
+
+THEME - DISCOVERY
+
+Discovery is the act of detecting something new. With reference to science and academic disciplines, discovery is the observation of new phenomena, new actions, or new events and providing new reasoning to explain the knowledge gathered through such observations with previously acquired knowledge from abstract thought and everyday experiences.
+http://en.wikipedia.org/wiki/Discovery_(observation)
+
+
+Vessels and vehicles
+
+[edit]Marine
+Discovery (1602 ship)
+Discovery (cruise ship)
+Discovery I, sternwheel riverboat operated by Riverboat Discovery
+Discovery II, sternwheel riverboat operated by Riverboat Discovery
+Discovery III, sternwheel riverboat operated by Riverboat Discovery
+HMS Discovery
+HSS Discovery, a high speed ferry
+RRS Discovery, the ship on Captain R.F. Scott's Antarctic expedition
+RRS Discovery (1962) , a British Royal Research Ship operated by NERC
+[edit]Space
+Discovery One, a fictional space craft from the film 2001: A Space Odyssey
+Space Shuttle Discovery
+[edit]Land
+Land Rover Discovery, a 4x4 MPV manufactured by Land Rover
+
+
+http://en.wikipedia.org/wiki/Discovery
+
+
+
+http://en.wikipedia.org/wiki/Age_of_Exploration
+
+
+
+Please read:
+A personal appeal from 
+Wikipedia founder Jimmy Wales
+
+Age of Discovery
+From Wikipedia, the free encyclopedia
+  (Redirected from Age of Exploration)
+This article is about 16th century geographic exploration. For the computer wargame, see Global Diplomacy.
+
+
+Cantino planisphere 1502, earliest surviving chart showing the explorations of Columbus to Central America, Corte-Real to Newfoundland, Gama to India and Cabral to Brazil. Tordesillas line depicted, Biblioteca Estense, Modena
+The Age of Discovery, also known as the Age of Exploration, was a period in history starting in the 15th century and continuing into the early 17th century during which Europeans engaged in intensive exploration of the world, establishing direct contacts with Africa, the Americas, Asia and Oceania and mapping the planet. Historians often refer to the 'Age of Discovery'[1][2] as the pioneer Portuguese and Spanish long-distance maritime travels in search of alternative trade routes to "the Indies", moved by the trade of gold, silver and spices.[3]
+The Portuguese began systematically exploring the Atlantic coast of Africa from 1418, under the sponsorship of Prince Henry, reaching the Indian Ocean by this route in 1488. In 1492, racing to find a trade route to Asia, the Spanish monarchs funded Christopher Columbus’ plan to sail west to reach the “Indies” by crossing the Atlantic. He landed on an uncharted continent, then seen by Europeans as a “new world”, America. To prevent conflict between Portugal and Spain, a treaty was signed dividing the world into two regions of exploration, where each had exclusive rights to claim newly discovered lands. In 1498, a Portuguese expedition commanded by Vasco da Gama finally achieved the dream of reaching India by sailing around Africa, opening up direct trade with "Asia". Soon, the Portuguese sailed further eastward, to the valuable “spice islands” in 1512, landing in China one year later. East and west exploration overlapped in 1522, when Ferdinand Magellan led a Spanish expedition west, achieving the first circumnavigation of the world, while Spanish conquistadors explored inland the Americas, and later, some of the South Pacific islands. In 1595, the Dutch, French and English, who entered the race of exploration shortly after learning of these exploits, defied the Iberian monopoly on maritime trade by searching for new routes, first to the north, and into the Pacific Ocean around South America, but eventually by following the Portuguese around Africa into the Indian Ocean; discovering Australia in 1606, New Zealand in 1642, and Hawaii in 1778. Meanwhile, from the 1580s to the 1640s Russians explored and conquered almost the whole of Siberia.
+The Age of Discovery is seen as a bridge between the Middle Ages and the Modern era, along with its contemporary Renaissance movement, triggering the early modern period and the rise of European nation-states. Accounts from distant lands and maps spread with the help of the new printing press fed the rise of humanism and worldly curiosity, ushering in a new age of scientific and intellectual inquiry. European overseas expansion led to the rise of colonial empires, with the contact between the Old and New Worlds producing the Columbian Exchange: a wide transfer of plants, animals, foods, human populations (including slaves), communicable diseases, and culture between the Eastern and Western hemispheres, in one of the most significant global events concerning ecology, agriculture, and culture in history. European exploration spanned until accomplishing the global mapping of the world, resulting in a new world-view and distant civilizations acknowledging each other, reaching the most remote boundaries much later.
+Contents [hide]
+1 Prelude (1241–1438)
+1.1 Medieval travel
+1.2 Chinese missions
+2 Atlantic Ocean (1419–1507)
+2.1 Portuguese exploration
+2.1.1 Portuguese Exploration after Prince Henry
+2.2 Columbus' "West Indies"
+2.3 Treaty of Tordesillas (1494)
+2.4 A New World: Americas
+2.4.1 The "true Indies" and Brazil
+3 Indian Ocean (1497–1513)
+3.1 Gama's route to India
+3.2 The "Spice Islands" and China
+4 Pacific Ocean (1513–1529)
+4.1 First circumnavigation
+4.2 Westward and Eastward exploration met
+5 Inland Spanish conquistadores (1519–1532)
+5.1 Cortés' Mexico and the Aztec Empire
+5.2 Pizarro's Peru and the Inca Empire
+6 New trade routes (1542–1565)
+7 Northern European involvement (1595–1600s)
+7.1 Exploring North America
+7.2 Search for a Northern Route
+7.2.1 Barentsz' Arctic exploration
+7.3 Dutch Australia and New Zealand
+8 Russian exploration of Siberia (1581–1660)
+8.1 Conquest of the Khanate of Sibir
+8.2 Siberian river routes
+8.3 Russians reach the Pacific
+9 Global impact
+9.1 Economic impact in Europe
+10 See also
+11 References
+11.1 Bibliography
+11.1.1 Primary sources
+11.1.2 Books
+11.1.3 Web sources
+12 Further reading
+13 External links
+[edit]Prelude (1241–1438)
+
+See also: Exploration of Asia
+
+
+The Silk Road and Spice trade routes later blocked by the Ottoman Empire in 1453 spurring exploration to find alternative sea routes
+
+
+Marco Polo travels (1271–1295)
+European medieval knowledge about remote Asia was sourced in partial reports, often obscured by legends, dating back from the time of the explorations of Alexander the Great and his successors. Another source were Arab reports from the time of Christian occupation of Palestine and Crusader states. Little was known beyond the lands of Anatolia and the Caspian Sea, the most remote boundaries of the last known Christians. Africa was only partially known, and its southern limit unknown, or even if there was such a limit. There were reports of great African kingdoms beyond the Sahara, but the factual knowledge was limited to the Mediterranean coasts and little else, since Arabic blockage did not allow in-depth explorations. Knowledge about the Atlantic African coast was remote and derived mainly from old maps and reports of a strange and distant time when the Romans went to explore Mauritania. The Red Sea was barely known and only trade links with the Maritime Republics—the Republic of Venice especially.[4]
+[edit]Medieval travel
+The prelude to the Age of Exploration was a series of European expeditions crossing Eurasia by land in the late Middle Ages.[5] Although the Mongols had threatened Europe with pillage and destruction, the Mongol states also unified much of Eurasia and, from 1206 on, the Pax Mongolica allowed safe trade routes and communication lines stretching from the Middle East to China.[6][7] A series of Europeans took advantage of these to explore eastwards. Most were Italians, as trade between Europe and the Middle East was controlled mainly by traders from the Maritime Republics. The close Italian links to the Levant raised great curiosity and commercial interest in countries which lay further east.
+The first of these travelers was Giovanni de Plano Carpini, dispatched in a formal mission by Pope Innocent IV, who journeyed to Mongolia and back from 1241 to 1247.[6] The most famous traveler, however, was Marco Polo, a Venetian merchant who wrote of journeys throughout Asia from 1271 to 1295, describing being a guest at the Yuan Dynasty court of Kublai Khan in Travels, a work read throughout Europe.[8] In 1291, in a first oceanic exploration attempt, merchant brothers Vadino and Ugolino Vivaldi had sailed from Genoa with two galleys, but disappeared off the Moroccan coast, feeding the fears of Atlantic travel.[9][10] From 1325 to 1354, a Moroccan scholar from Tangier, Ibn Battuta, journeyed from North Africa, Southern Europe, the Middle East and Asia, having reached China. After return, he dictated an account of his journeys to a scholar he met in Granada, the Rihla ("The Journey"),[11] the unheralded source on his adventures. In 1439, Niccolò Da Conti published an account of his travels to India and Southeast Asia and later, in 1466–1472, a Russian merchant Afanasy Nikitin of Tver travelled to India, which he described in his book A Journey Beyond the Three Seas.
+These journeys had little immediate effect. The Mongol Empire collapsed almost as quickly as it formed and soon the route to the east became far more difficult and dangerous. The Black Death of the 14th century also blocked travel and trade.[12] The rise of the Ottoman Empire further limited the possibilities of European overland trade.
+[edit]Chinese missions
+Further information: Chinese exploration
+
+
+"Mao Kun map", believed to be based on Zheng He's travels, showing sailing directions between ports of SE Asia and as far as Malindi, in Wu Bei Zhi (1628)
+In 1368, after the overthrow of the Yuan Dynasty, the Mongols lost most of China to the rebel Ming Dynasty. The Chinese had wide connections through trade in Asia and had been sailing to Arabia, East Africa, and Egypt since the Tang Dynasty (AD 618–907). Between 1405 and 1421 the third Ming emperor Yongle sponsored a series of long range tributary missions in the Indian Ocean under the command of admiral Zheng He (Cheng Ho).[13]
+A large fleet of new junk ships was prepared for these international diplomatic expeditions. The largest of these junks—that the Chinese termed bao chuan (treasure ships)—may have measured 121 meters (400 feet) stem to stern, and thousands of sailors were involved. The first expedition departed in 1405. At least seven well-documented expeditions were launched, each bigger and more expensive than the last. The fleets visited Arabia, East Africa, India, Malay Archipelago and Thailand (at the time called Siam), exchanging goods along the way.[14] They presented gifts of gold, silver, porcelain and silk; in return, received such novelties as ostriches, zebras, camels, ivory and giraffes.[15][16] After the emperor's death, Zheng He led a final expedition departing from Nanking in 1431 and returning to Beijing in 1433. It is very likely that this last expedition reached as far as Madagascar. The travels were reported by Ma Huan, a Muslim voyager and translator who accompanied Zeng He on three of the seven expeditions, his account published as "Ying-Yai Sheng-Lam" (Overall Survey of the Ocean's Shores) (1433)[17]
+These long distance journeys were not followed up, as the Chinese Ming dynasty retreated in the haijin, a policy of isolationism, having limited maritime trade. Travels were halted abruptly after the emperor's death, as the Chinese lost interest in what they termed barbarian lands turning inward,[18] and successor emperors felt the expeditions were harmful to the Chinese state: Hongxi Emperor ended further expeditions and Xuande Emperor suppressed much of the information about Zheng He's voyages.
+[edit]Atlantic Ocean (1419–1507)
+
+See also: Maritime history of Europe and Portuguese discoveries
+
+
+Genoese (red) and Venetian (green) maritime trade routes in the Mediterranean and Black Sea
+From the 8th century until the 15th century, the Republic of Venice and neighboring maritime republics held the monopoly of European trade with the Middle East. The silk and spice trade, involving spices, incense, herbs, drugs and opium, made these Mediterranean city-states phenomenally rich. Spices were among the most expensive and demanded products of the Middle Ages, used in medieval medicine,[19] religious rituals, cosmetics, perfumery, as well as food additives and preservatives.[20] They were all imported from Asia and Africa. Muslim traders—mainly descendants of Arab sailors from Yemen and Oman—dominated maritime routes throughout the Indian Ocean, tapping source regions in the Far East and shipping for trading emporiums in India, mainly Kozhikode, westward to Ormus in Persian Gulf and Jeddah in the Red Sea. From there, overland routes led to the Mediterranean coasts. Venetian merchants distributed then the goods through Europe until the rise of the Ottoman Empire, that eventually led to the fall of Constantinople in 1453, barring Europeans from important combined-land-sea routes.
+Forced to reduce their activities in the Black Sea, and at war with Venice, the Genoese had turned to north African trade of wheat, olive oil (valued also as energy source) and a search for silver and gold. Europeans had a constant deficit in silver and gold,[21] as coin only went one way: out, spent on eastern trade that was now cut off. Several European mines were exhausted,[22] the lack of bullion leading to the development of a complex banking system to manage the risks in trade (the very first state bank, Banco di San Giorgio, was founded in 1407 at Genoa). Sailing also into the ports of Bruges (Flanders) and England, Genoese communities established then in Portugal,[23] who profited from their enterprise and financial expertise.
+For the first oceanic exploration Western Europeans used the compass, progressive new advances in cartography and astronomy. Arab navigation tools like the astrolabe and quadrant were used for celestial navigation. European sailing had been primarily close to land cabotage, guided by portolan charts. These charts specified proven ocean routes guided by coastal landmarks: sailors departed from a known point, followed a compass heading, and tried to identify their location by its landmarks.[24]
+[edit]Portuguese exploration
+See also: Portuguese discoveries and European exploration of Africa
+
+
+Saharan trade routes circa 1400, with the modern Niger highlighted
+
+
+Voyage of Bartolomeu Dias (1487–88)
+In 1297, with the reconquista completed, king Dinis of Portugal took personal interest in exports and in 1317 he made an agreement with Genoese merchant sailor Manuel Pessanha (Pesagno), appointing him first Admiral of the Portuguese navy, with the goal of defending the country against Muslim pirate raids.[25] Outbreaks of bubonic plague led to severe depopulation in the second half of the 14th century: only the sea offered alternatives, with most population settling in fishing and trading coastal areas.[26] Between 1325–1357 Afonso IV of Portugal encouraged maritime commerce and ordered the first explorations.[27] The Canary Islands, already known to Genoese, were claimed as officially discovered under patronage of the Portuguese but in 1344 Castile disputed them, expanding their rivalry into the sea.[28][29] In 1415, Ceuta was occupied by the Portuguese aiming to control navigation of the African coast. Young prince Henry the Navigator was there and became aware of profit possibilities in the Trans-Saharan trade routes. For centuries slave and gold trade routes linking West Africa with the Mediterranean passed over the Western Sahara Desert, controlled by hostile Muslim states of North Africa.
+Henry wished to know how far Muslim territories in Africa extended, hoping to bypass it and trade directly with West Africa by sea, find allies in legendary Christian lands to the south[30] like the long-lost Christian kingdom of Prester John[31] and to probe whether it was possible to reach the Indies by sea, the source of the lucrative spice trade. He invested in sponsoring voyages down the coast of Mauritania, gathering a group of merchants, shipowners and stakeholders interested in new sea lanes. Soon the Atlantic islands of Madeira (1419) and Azores (1427) were reached.
+At the time, Europeans did not know what lay beyond Cape Non (Cape Chaunar) on the African coast, and whether it was possible to return once it was crossed.[32] Nautical myths warned of oceanic monsters or an edge of the world, but Prince Henry's navigation challenged such beliefs: starting in 1421, systematic sailing overcame it, reaching the difficult Cape Bojador that in 1434 one of Prince Henry's captains, Gil Eanes, finally passed.
+A major advance was the introduction of the caravel in the mid-15th century, a small ship able to sail windward more than any other in Europe at the time.[33] Evolved from fishing ships designs, they were the first that could leave the coastal cabotage navigation and sail safely on the open Atlantic. For celestial navigation Portuguese used ephemeris, which have experienced a remarkable diffusion in the 15th century. These tables revolutionized navigation, allowing to calculate latitude. Exact longitude, however, remained elusive, and mariners struggled to determine it for centuries.[34][35] Using the caravel, systematic exploration continued ever more southerly, advancing on average one degree a year.[36] Senegal and Cape Verde Peninsula were reached in 1445 and in 1446, António Fernandes pushed on almost as far as present-day Sierra Leone.
+In 1453 the fall of Constantinople to the hands of the Ottomans was a blow to Christianity and the established business relations linking with the east. In 1455 Pope Nicholas V issued the bull Romanus Pontifex reinforcing previous Dum Diversas (1452), granting all lands and seas discovered beyond Cape Bojador to the King of Portugal and his successors, as well as trade and conquest against Muslims and pagans, initiating a mare clausum policy in the Atlantic.[37]
+In 1456 Diogo Gomes reached the Cape Verde archipelago. In the next decade several captains at the service of Prince Henry - including the Genoese Antonio da Noli and Venetian Alvise Cadamosto - discovered the remaining islands which were occupied still during the 15th century. The Gulf of Guinea would be reached in the 1460s's.
+
+
+Replica of caravel ship introduced in mid-15th century for oceanic exploration
+[edit]Portuguese Exploration after Prince Henry
+In 1460 Pero de Sintra reached Sierra Leone. Prince Henry died in November that year after which, given the meager revenues, exploration was granted to Lisbon merchant Fernão Gomes in 1469, who in exchange for the monopoly of trade in the Gulf of Guinea had to explore 100 miles each year for five years.[38] With his sponsorship, explorers João de Santarém, Pedro Escobar, Lopo Gonçalves, Fernão do Pó, and Pedro de Sintra made it even beyond the hired. They reached the southern Hemisphere and the islands of the Gulf of Guinea, including São Tomé and Príncipe and Elmina on the Gold Coast in 1471. In the Southern hemisphere, they used the Southern Cross as the reference for celestial navigation.
+There, a thriving alluvial gold trade was found among the natives and Arab and Berber traders and in 1481, the recently crowned João II decided to build São Jorge da Mina factory. In 1482 the Congo River was explored by Diogo Cão,[39] who in 1486 continued to Cape Cross (modern Namibia).
+The next crucial breakthrough was in 1488, when Bartolomeu Dias rounded the southern tip of Africa, which he named "Cape of Storms" (Cabo das Tormentas), anchoring at Mosselbay and then sailing east as far as the mouth of the Great Fish River, proving that the Indian Ocean was accessible from the Atlantic. Simultaneously Pêro da Covilhã, sent out traveling secretly overland, had reached Ethiopia having collected important information about the Red Sea and Quenia coast, suggesting that a sea route to the Indies would soon be forthcoming.[40] Soon the cape was renamed by king John II of Portugal "Cape of Good Hope" (Cabo da Boa Esperança), because of the great optimism engendered by the possibility of a sea route to India, proving false the view that had existed since Ptolemy that the Indian Ocean was land-locked.
+[edit]Columbus' "West Indies"
+See also: Voyages of Christopher Columbus and European colonization of the Americas
+
+
+The four voyages of Christopher Columbus 1492–1503
+Portugal's neighbouring fellow Iberian rival, Castile, had begun to establish its rule over the Canary Islands, located off the west African coast, in 1402, but then became distracted by internal Iberian politics and the repelling of Islamic invasion attempts and raids through most of the 15th century. Only late in the century, following the unification of the crowns of Castile and Aragon and the completion of the reconquista, did an emerging modern Spain become fully committed to the search for new trade routes overseas. The Crown of Aragon had been an important maritime potentate in the Mediterranean, controlling territories in eastern Spain, southwestern France, major islands like Sicily, Malta, and the Kingdom of Naples and Sardinia, with mainland possessions as far as Greece. In 1492 the joint rulers conquered the Moorish kingdom of Granada, which had been providing Castile with African goods through tribute, and decided to fund Christopher Columbus' expedition in the hope of bypassing Portugal's monopoly on west African sea routes, to reach "the Indies" (east and south Asia) by travelling west.[41] Twice before, in 1485 and 1488, Columbus had presented the project to king John II of Portugal, who rejected it.
+On the evening of 3 August 1492, Columbus departed from Palos de la Frontera with three ships; one larger carrack, Santa María, nicknamed Gallega (the Galician), and two smaller caravels, Pinta (the Painted) and Santa Clara, nicknamed Niña. Columbus first sailed to the Canary Islands, where he restocked for what turned out to be a five-week voyage across the ocean, crossing a section of the Atlantic that became known as the Sargasso Sea.
+Land was sighted on 12 October 1492, and Columbus called the island (now The Bahamas) San Salvador, in what he thought to be the "West Indies". Columbus also explored the northeast coast of Cuba (landed on 28 October) and the northern coast of Hispaniola, by 5 December. He was received by the native cacique Guacanagari, who gave him permission to leave some of his men behind.
+
+
+Replicas of Niña, Pinta and Santa María at Palos de la Frontera, Spain
+Columbus left 39 men and founded the settlement of La Navidad in what is now present-day Haiti.[42] Before returning to Spain, he kidnapped some ten to twenty-five natives and took them back with him. Only seven or eight of the native Indians arrived in Spain alive, but they made quite an impression on Seville.[43]
+On the return, a storm forced him to dock in Lisbon, on 4 March 1493. After a week in Portugal, he set sail for Spain, entering the harbor of Palos on 15 March 1493. Word of his "discovery" of new lands rapidly spread throughout Europe.[44]
+Columbus and other Spanish explorers were initially disappointed with their discoveries—unlike Africa or Asia the Caribbean islanders had little to trade with the Spanish ships. The islands thus became the focus of colonization efforts. It was not until the continent itself was explored that Spain found the wealth it had sought.
+[edit]Treaty of Tordesillas (1494)
+Main article: Treaty of Tordesillas
+
+
+The 1494 Tordesilhas Treaty meridian (purple) and the later Maluku Islands antimeridian (green), set at the Treaty of Zaragoza (1529)
+Shortly after Columbus arrival from the "West Indies", a division of influence became necessary to avoid conflict between Spanish and Portuguese.[45] On 4 May 1493, two months after Columbus arrival, the Catholic Monarchs got a bull (Inter caetera) from Pope Alexander VI stating that all lands west and south of a pole-to-pole line 100 leagues west and south of the Azores or the Cape Verde Islands should belong to Spain and, later, all mainlands and islands then belonging to India. It did not mention Portugal, which could not claim newly discovered lands east of the line.
+King John II of Portugal was not pleased with the arrangement, feeling that it gave him far too little land—preventing him from reaching India, his main goal. He then negotiated directly with King Ferdinand and Queen Isabella of Spain to move the line west, allowing him to claim newly discovered lands east of it.[46]
+An agreement was reached in 1494, with the Treaty of Tordesillas that "divided" the world between the two powers. In this treaty the Portuguese "received" everything outside of Europe east of a line that ran 270 leagues west of the Cape Verde islands (already Portuguese), and the islands discovered by Christopher Columbus on his first voyage (claimed for Spain), named in the treaty as Cipangu and Antilia (Cuba and Hispaniola), this gave them control over Africa, Asia and eastern South America (Brazil). The Spanish received everything west of this line, territory that was still almost completely unknown, and proved to be mostly the western part of the American continent plus the Pacific Ocean islands.
+[edit]A New World: Americas
+
+
+Detail of 1507 Waldseemüller map showing the name "America" for the first time.
+Very little of the divided area had actually been seen by Europeans, as it was only divided via the treaty. Soon after Columbus' first voyage a number of explorers headed west, in the same direction. Starting in 1497, there was a spur in maritime exploration. That year John Cabot, also a commissioned Italian, got letters patent from King Henry VII of England. Sailing from Bristol, probably backed by the local Society of Merchant Venturers, Cabot crossed the Atlantic from a northerly latitude hoping the voyage to the "West Indies" would be shorter[47] and made a landfall somewhere in North America, possibly Newfoundland. In 1499 João Fernandes Lavrador was licensed by the King of Portugal and together with Pêro de Barcelos they first sighted Labrador, which was granted and named after him. After returning he possibly went to Bristol to sail in the name of England.[48] Nearly at the same time, between 1499–1502 brothers Gaspar and Miguel Corte Real explored and named the coasts of Greenland and also Newfoundland.[49] Both explorations signaled in 1502 Cantino planisphere.
+[edit]The "true Indies" and Brazil
+In 1497, newly crowned King Manuel I of Portugal sent an exploratory fleet eastwards, fulfilling his predecessor's project of finding a route to the Indies. In July 1499 news spread that the Portuguese had reached the "true indies", as a letter was dispatched by the Portuguese king to the Spanish Catholic Monarchs one day after the celebrated return of the fleet.[50] While Columbus engaged in two new trips to explore Central America, coming into conflict with the Spanish crown, a second Portuguese armada was dispatched to India. The fleet of thirteen ships and about 1,500 men left Lisbon on 9 March 1500. It was headed by Pedro Álvares Cabral with a crew of expert sailors including Bartolomeu Dias, Nicolau Coelho and scrivener Pêro Vaz de Caminha. To avoid the calms off the coast of Gulf of Guinea, they sailed in a southwesterly direction, in a large "volta do mar". On 21 April a mountain was visible, then named Monte Pascoal; on 22 April they landed on the coast of Brazil, and on 25 April the entire fleet sailed into the harbor called Porto Seguro. Cabral perceived that the new land lay east of the line of Tordesillas, and at once sent an envoy to Portugal with the important tidings. Believing the newly-discovered lands to be an island, they named it Island of Vera Cruz (Island of the True Cross). Some historians contend that the Portuguese knew of the South American bulge before while sailing the "volta do mar" technique- hence the insistence of John II in moving to west line of Tordesillas- so his landing in Brazil may not have been an accident.[51]
+At the invitation of king Manuel I of Portugal, Amerigo Vespucci [52]- a Florentine who had been working for a branch of the Medici bank in Seville since 1491, fitting oceanic expeditions and travelling twice to the Guianas with Juan de la Cosa in the service of Spain[53] - participated as observer in these exploratory voyages to the east coast of South America and the expeditions became widely known in Europe after two accounts attributed to him, published between 1502 and 1504. It was soon understood that Columbus had not reached Asia, but rather found what was to Europeans a new World: the Americas. America was named in 1507 by cartographers Martin Waldseemüller and Matthias Ringmann, probably after Amerigo Vespucci, who was the first European to suggest that the newly discovered lands were not India but a "New World",[54] the Mundus novus, Latin title of a contemporary document based on Vespucci letters to Lorenzo di Pierfrancesco de' Medici, which had become widely popular in Europe.[55]
+[edit]Indian Ocean (1497–1513)
+
+[edit]Gama's route to India
+
+
+Vasco da Gama's 1497-1499 travel to India (black). Previous travels of Pêro da Covilhã (orange) and Afonso de Paiva (blue), and their common route (green)
+Protected from direct Spanish competition by the treaty of Tordesillas, Portuguese eastward exploration and colonization continued apace. Twice, in 1485 and 1488, Portugal officially rejected Christopher Columbus's idea of reaching India by sailing westwards. King John II of Portugal's experts rejected it, for they held the opinion that Columbus's estimation of a travel distance of 2,400 miles (3,860 km) was undervalued,[56] and in part because Bartolomeu Dias departed in 1487 trying the rounding of the southern tip of Africa, therefore they believed that sailing east would require a far shorter journey. Dias's return from the Cape of Good Hope in 1488, and Pêro da Covilhã travel to Ethiopia overland indicated that the richness of the Indian Sea was accessible from the Atlantic. A long-overdue expedition was prepared.
+Under new king Manuel I of Portugal, on July 1497 a small exploratory fleet of four ships and about 170 men left Lisbon under command of Vasco da Gama. By December the fleet passed the Great Fish River—where Dias had turned back—and sailed into unknown waters. On 20 May 1498, they arrived at Calicut. The efforts of Vasco da Gama to get favorable trading conditions were hampered by the low value of their goods, compared with the valuable goods traded there. Two years after departure, Gama and a survivor crew of 55 men returned in glory to Portugal as the first ships to sail directly from Europe to India.
+In 1500, a second larger fleet of thirteen ships and about 1500 men was sent to India. Under command of Pedro Álvares Cabral they made a first landfall on the Brazilian coast; later, in the Indian Ocean, one of Cabral's ships reached Madagascar (1501), which was partly explored by Tristão da Cunha in 1507; Mauritius was discovered in 1507, Socotra occupied in 1506. In the same year Lourenço de Almeida landed in Sri Lanka, the eastern island named "Taprobane" in remote accounts of Alexander the Great's and 4th-century BCE Greek geographer Megasthenes. On the Asiatic mainland the first factories (trading-posts) were established at Kochi and Calicut (1501) and then Goa (1510).
+[edit]The "Spice Islands" and China
+
+
+Replica of Frol de la mar carrack housing the Maritime Museum of Malacca
+In 1511 Afonso de Albuquerque conquered Malacca to Portugal, then the center of Asian trade. East of Malacca, Albuquerque sent several diplomatic missions: Duarte Fernandes as the first European envoy to the kingdom of Siam (modern Thailand).
+Getting to know the secret location of the so-called "spice islands"—the Maluku Islands, mainly the Banda, then the single world source of nutmeg and cloves, main purpose for the travels in the Indian sea- he sent an expedition led by António de Abreu to Banda, where they were the first Europeans to arrive in early 1512.[57] Abreu then left for Ambon Island while his vice-captain Francisco Serrão sank off Ternate, where he obtained a license to build a Portuguese fortress-factory: the Fort of São João Baptista de Ternate, which founded the Portuguese presence in the Malay Archipelago.
+In May 1513 Jorge Álvares, one of the Portuguese envoys, reached China. Although he was the first to land on Lintin Island in the Pearl River Delta, it was Rafael Perestrello—a cousin of the famed Christopher Columbus—who became the first European explorer to land on the southern coast of mainland China and trade in Guangzhou in 1516, commanding a Portuguese vessel with a crew from a Malaysian junk that had sailed from Malacca.[58][59] Fernão Pires de Andrade visited Canton in 1517 and opened up trade with China, in 1557 the Portuguese were permitted to occupy Macau.
+To enforce a trade monopoly, Hormuz in the Persian Gulf was seized by Afonso de Albuquerque in 1507 and 1515, who also entered into diplomatic relations with Persia. In 1513 while trying to conquer Aden, an expedition led by Albuquerque cruised the Red Sea inside the Bab al-Mandab, and sheltered at Kamaran island. In 1521, a force under Antonio Correia conquered Bahrain ushering in a period of almost eighty years of Portuguese rule of the Gulf archipelago.[60] In the Red Sea, Massawa was the most northerly point frequented by the Portuguese until 1541, when a fleet under Estevão da Gama penetrated as far as Suez.
+[edit]Pacific Ocean (1513–1529)
+
+
+
+Vasco Núñez de Balboa's travel to the "South Sea", 1513
+In 1513, about 40 miles south of Acandí, in present day Colombia, Spanish Vasco Núñez de Balboa heard unexpected news of an "other sea" rich in gold, which he received with great interest.[61] With few resources and using information given by caciques, he journeyed across the Isthmus of Panama with 190 Spaniards, a few native guides, and a pack of dogs. Using a small brigantine and ten native canoes, they sailed along the coast and made landfall. On September 6, the expedition was reinforced with 1,000 men, fought several battles, entered a dense jungle and climbed the mountain range along the Chucunaque River from were this "other sea" could be seen. Balboa went ahead and, before noon September 25, he saw in the horizon an undiscovered sea, becoming the first European to have seen or reached the Pacific from the New World. The expedition descended towards the shore for a short reconnaissance trip, thus becoming the first Europeans to navigate the Pacific Ocean. After traveling more than 110 km (68 mi), Balboa named the bay where they ended up San Miguel. He named the new sea Mar del Sur (South Sea), since they had traveled south to reach it. Balboa's main purpose in the expedition was the search for gold-rich kingdoms. To this end, he crossed through the lands of caciques to the islands, naming the largest one Isla Rica (Rich Island, today known as Isla del Rey). He named the entire group Archipiélago de las Perlas, which they still keep today. In 1515–1516 Juan Díaz de Solís sailed as far as Río de la Plata, which he named, having died trying to find a passage to the "South Sea" in South America at the service of Spain.
+[edit]First circumnavigation
+
+
+Route of Magellan-Elcano world circumnavigation (1519–1522)
+Since 1516, several Portuguese conflicting with king Manuel I of Portugal gathered in Seville, at the service of the newly crowned Charles I of Spain. Among them were explorers Diogo and Duarte Barbosa, Estevão Gomes, João Serrão and Ferdinand Magellan, the cartographers Jorge Reinel and Diogo Ribeiro, the cosmographers Francisco and Ruy Faleiro and the Flemish merchant Christopher de Haro. Ferdinand Magellan—who had sailed in India for Portugal until 1513, when Maluku Islands were reached, and kept contact with Francisco Serrão living there[62][63]—developed the theory that the islands were in the Tordesillas Spanish area, supported on studies by Faleiro brothers. Aware of the efforts of the Spanish to find a route to India by sailing west, Magellan presented them a plan to get there.
+The Spanish king and Christopher de Haro financed Magellan's expedition. On August 10, 1519, departed from Seville a fleet of five ships—flagship Trinidad under Magellan's command, San Antonio, Concepcion, Santiago and Victoria, the first being a caravel, and all others rated as carracks or "naus"—with a crew of about 237 men from several nations, with the goal of reaching the Maluku Islands by traveling west, trying to reclaim it under Spain's economic and political sphere.[64]
+
+
+Victoria, the single ship to have completed the first world circumnavigation. (Detail from Maris Pacifici by Ortelius, 1589.)
+The fleet sailed further and further south, avoiding the Portuguese territories in Brazil, and become the first to reach Tierra del Fuego at the tip of the Americas. On October 21, starting in Cape Virgenes, began an arduous trip through a 373-mile (600 km) long strait that Magellan named Estrecho de Todos los Santos, modern Strait of Magellan. On November 28, three ships entered the Pacific Ocean—then named Mar Pacífico because of its apparent stillness.[65] The expedition managed to cross the Pacific. Magellan died in the battle of Mactan in the Philippines, leaving the Spaniard Juan Sebastián Elcano the task of completing the voyage, reaching the Spice Islands in 1521. On September 6, 1522 Victoria returned to Spain, thus completing the first circumnavigation of the globe. Of the men who set out on five ships, only 18 completed the circumnavigation and managed to return to Spain in this single vessel led by Elcano. Seventeen other arrived later in Spain: twelve captured by the Portuguese in Cape Verde some weeks earlier and between 1525–1527, and five survivors of the Trinidad. Antonio Pigafetta, a Venetian scholar and traveler who had asked to be on board and become a strict assistant of Magellan, kept an accurate journal that become the main source for much of what we know about this voyage.
+This round-the-world voyage gave Spain valuable knowledge of the world and its oceans which later helped in the exploration and settlement of the Philippines. Although this was not a realistic alternative to the Portuguese route around Africa[66] (the Strait of Magellan was too far south, and the Pacific Ocean too vast to cover in a single trip from Spain) successive Spanish expeditions used this information to travel from the Mexican coast via Guam to Manila.
+[edit]Westward and Eastward exploration met
+
+
+View from Ternate to Tidore islands in the Maluku, where Portuguese Eastward and Spanish Westward explorations ultimately met and clashed between 1522-29[67][68]
+
+
+Saavedra's failed attempts to find a return route from the Maluku to New Spain (Mexico) in 1527
+Soon after Magellan's expedition, the Portuguese rushed to seize the surviving crew and built a fort in Ternate.[67] In 1525, Charles I of Spain sent another expedition westward to colonize the Maluku Islands, claiming that they were in his zone of the Treaty of Tordesillas. The fleet of seven ships and 450 men was led by García Jofre de Loaísa and included the most notable Spanish navigators: Juan Sebastián Elcano and Loaísa, who lost their lives then, and the young Andrés de Urdaneta.
+Near the Strait of Magellan one of the ships was pushed south by a storm, reaching 56 ° S, where they thought seeing "earth's end": so Cape Horn was crossed for the first time. The expedition reached the islands with great difficulty, docking at Tidore.[67] The conflict with the Portuguese established in nearby Ternate was inevitable, starting nearly a decade of skirmishes.[69][70]
+As there was not a set eastern limit to Tordesillas line, both kingdoms organized meetings to resolve the issue. From 1524 to 1529 Portuguese and Spanish experts met at Badajoz-Elvas trying to find the exact location of the antimeridian of Tordesillas, which would divide the world into two equal hemispheres. Each crown appointed three astronomers and cartographers, three pilots and three mathematicians. Lopo Homem, Portuguese cartographer and cosmographer was in the board, along with cartographer Diogo Ribeiro on the Spanish delegation. The board met several times, without reaching an agreement: the knowledge at that time was insufficient for an accurate calculation of longitude, and each group gave the islands to its sovereign. The issue was settled only in 1529, after a long negotiation, with the signing of Treaty of Zaragoza, that attributed the Maluku Islands to Portugal and the Philippines to Spain.[71]
+Between 1525 and 1528 Portugal sent several expeditions around the Maluku Islands. Gomes de Sequeira and Diogo da Rocha were sent north by the governor of Ternate Jorge de Meneses, being the first Europeans to reach the Caroline Islands, which they named "Islands de Sequeira".[72] In 1526, Jorge de Meneses docked on Waigeo island, Papua New Guinea. Based on these explorations stands the theory of Portuguese discovery of Australia, one among several competing theories about the early discovery of Australia, supported by Australian historian Kenneth McIntyre, stating it was discovered by Cristóvão de Mendonça and Gomes de Sequeira.
+In 1527 Hernán Cortés fitted out a fleet to find new lands in the "South Sea" (Pacific Ocean), asking his cousin Alvaro de Saavedra to take charge. On October 31 of 1527 Saavedra sailed from New Spain, crossing the Pacific and touring the north of New Guinea, then named Isla de Oro. In October 1528 one of the vessels reached Maluku Islands. In his attempt to return to New Spain he was diverted by the northeast trade winds, which threw him back, so he tried sailing back down, to south. He returned to New Guinea and sailed northeast, where he sighted the Marshall Islands and the Admiralty Islands, but again was surprised by the winds, which brought him a third time to the Moluccas. This westbound return route was hard to find, but was eventually discovered by Andrés de Urdaneta in 1565.[73]
+[edit]Inland Spanish conquistadores (1519–1532)
+
+Rumors of undiscovered islands northwest of Hispaniola had reached Spain by 1511 and king Ferdinand II of Aragon was interested in forestalling further exploration. While Portuguese were making huge gains in the Indian Ocean, the Spanish invested in exploring inland in search of gold and valuable resources. The members of these expeditions, the "conquistadors", came from a variety of backgrounds including artisans, merchants, clergy, lesser nobility and freed slaves. They usually supplied their own equipment in exchange for a share in profits, having no direct connection with the royal army, and often no professional military training or experience.[74]
+In the Americas the Spanish found a number of empires that were as large and populous as those in Europe. However, small bodies of conquistadors, with large armies of indigenous Americans groups, managed to conquer these states. During this time, pandemics of European disease such as smallpox devastated the indigenous populations. Once Spanish sovereignty was established, the Spanish focused on the extraction and export of gold and silver.
+In 1512, to reward Juan Ponce de León for exploring Puerto Rico in 1508, king Ferdinand urged him to seek these new lands. He would become governor of discovered lands, but was to finance himself all exploration.[75] With three ships and about 200 men, Léon set out from Puerto Rico on March 1513. In April they sighted land and named it La Florida—because it was Easter (Florida) season—believing it was an island, becoming credited as the first European to land in the continent. The arrival location has been disputed between St. Augustine,[76] Ponce de León Inlet and Melbourne Beach. They headed south for further exploration and on April 8 encountered a current so strong that it pushed them backwards: this was the first encounter with the Gulf Stream that would soon become the primary route for eastbound ships leaving the Spanish Indies bound for Europe.[77] They explored down the coast reaching Biscayne Bay, Dry Tortugas and then sailing southwest in an attempt to circle Cuba to return, reaching Grand Bahama on July.
+[edit]Cortés' Mexico and the Aztec Empire
+
+
+Route of Cortés inland progress 1519–1521
+In 1517 Cuba's governor Diego Velázquez de Cuéllar commissioned a fleet under the command of Hernández de Córdoba to explore the Yucatán peninsula. They reached the coast where Mayans invited them to land, but were attacked at night and only a remnant of the crew returned. Velázquez then commissioned another expedition led by his nephew Juan de Grijalva, who sailed south along the coast to Tabasco, part of the Aztec empire. In 1518 Velázquez gave the mayor of the capital of Cuba, Hernán Cortés, the command of an expedition to secure the interior of Mexico but, due to an old gripe between them, revoked the charter.
+In February 1519 Cortés went ahead anyway, in an act of open mutiny. With about 11 ships, 500 men, 13 horses and a small number of cannons he landed in Yucatán, in Mayan territory,[78] claiming the land for the Spanish crown. From Trinidad he proceeded to Tabasco and won a battle against the natives. Among the vanquished was La Malinche, his future mistress, who knew both (Aztec) Nahuatl language and Maya, becoming a valuable interpreter and counselor. Through her, Cortés learned about the wealthy Aztec Empire.
+In July his men took over Veracruz and he placed himself under direct orders of new king Charles V of Spain.[78] There Cortés asked for a meeting with Aztec Emperor Moctezuma II, who repeatedly refused. They headed to Tenochtitlan and on the way made alliances with several tribes. In October, accompanied by about 3,000 Tlaxcaltec they marched to Cholula, the second largest city in central Mexico. Either to instill fear upon the Aztecs waiting for him or (as he later claimed) wishing to make an example when he feared native treachery, they massacred thousands of unarmed members of the nobility gathered at the central plaza and partially burned the city.
+
+
+Map of the island city Tenochtitlán and Mexico gulf made by one of Cortés' men, 1524, Newberry Library, Chicago
+Arriving in Tenochtitlan with a large army, on November 8 they were peacefully received by Moctezuma II, who deliberately let Cortés enter the heart of the Aztec Empire, hoping to know them better to crush them later.[78] The emperor gave them lavish gifts in gold which enticed them to plunder vast amounts. In his letters to Charles V, Cortés claimed to have learned then that he was considered by the Aztecs to be either an emissary of the feathered serpent god Quetzalcoatl or Quetzalcoatl himself—a belief contested by a few modern historians.[79] But he soon learned that his men on the coast had been attacked, and decided to hostage Moctezuma in his palace, demanding a ransom as tribute to Charles V.
+Meanwhile, Velasquez sent another expedition, led by Pánfilo de Narváez, to oppose Cortès, arriving in Mexico in April 1520 with 1,100 men.[78] Cortés left 200 men in Tenochtitlan and took the rest to confront Narvaez, whom he overcame, convincing his men to join him. In Tenochtitlán one of Cortés's lieutenants committed a massacre in the Main Temple, triggering local rebellion. Cortés speedily returned, attempting the support of Moctezuma but the Aztec emperor was killed, possibly stoned by his subjects.[80] The Spanish fled for the Tlaxcaltec during the Noche Triste, where they managed a narrow escape while their backguard was massacred. Much of the treasure looted was lost during this panicked escape.[78] After a battle in Otumba they reached Tlaxcala, having lost 870 men.[78] Having prevailed with the assistance of allies and reinforcements from Cuba, Cortés sieged of Tenochtitlán and captured its ruler Cuauhtémoc on August 1521. As the Aztec Empire ended he claimed the city for Spain, renaming it Mexico City.
+[edit]Pizarro's Peru and the Inca Empire
+
+
+Francisco Pizarro's route of exploration during the conquest of Peru (1531–1533)
+A first attempt to explore western South America was undertaken in 1522 by Pascual de Andagoya. Native South Americans told him about a gold-rich territory on a river called Pirú. Having reached San Juan River (Colombia), Andagoya fell ill and returned to Panama, were he spread news about "Pirú" as the legendary El Dorado. These, along with the accounts of success of Hernán Cortés, caught the attention of Pizarro.
+Francisco Pizarro had accompanied Balboa in the crossing of the Isthmus of Panama. In 1524 he formed a partnership with priest Hernando de Luque and soldier Diego de Almagro to explore the south, agreeing to divide the profits. They dubbed the enterprise the "Empresa del Levante": Pizarro would command, Almagro would provide military and food supplies, and Luque would be in charge of finances and additional provisions.
+On 13 September 1524, the first of three expeditions left to conquest Peru with about 80 men and 40 horses. The expedition was a failure, reaching no farther than Colombia before succumbing to bad weather, hunger and skirmishes with hostile locals, were Almagro lost an eye. The place names bestowed along their route, Puerto deseado (desired port), Puerto del hambre (port of hunger) and Puerto quemado (burned port), testify these difficulties. Two years later they proceed in a second expedition with reluctant permission from Panama Governor. In August 1526, they left with two ships, 160 men and several horses. Upon reaching San Juan River they separated, Pizarro staying to explore the swampy coasts and Almagro sent back for reinforcements. Pizarro's main pilot sailed south and, after crossing the equator captured a raft from Tumbes. To his surprise, it carried textiles, ceramic and much-desired gold, silver, and emeralds, becoming the central focus of the expedition. Soon Almagro joined with reinforcements and they resumed. After a difficult voyage facing strong winds and currents, they reached Atacames were they found a large native population under Inca rule, but they seemed so dangerous that they didn't enter land.
+Pizarro stood at safe near the coast, while Almagro and Luque went back for reinforcements with proof of the found gold. The new governor outright rejected a third expedition and ordered two ships to bring everyone back to Panama. Almagro and Luque grasped the opportunity to join Pizarro. When they arrived at the Isla de Gallo, Pizarro drew a line in the sand, saying: "There lies Peru with its riches; Here, Panama and its poverty. Choose, each man, what best becomes a brave Castilian." Thirteen men decided to stay and became known as The Famous Thirteen. They headed for La Isla Gorgona, where they remained for seven months before the arrival of provisions.
+They decided to sail south and, by April 1528, reached the northwestern Peruvian Tumbes Region and were warmly received by local Tumpis. Two of Pizarro's men reported incredible riches, including gold and silver decorations around the chief's house. They saw for the first time a Llama which Pizarro called "little camels". The natives named the Spanish "Children of the Sun" for their fair complexion and brilliant armors. They decided then to return to Panama to prepare a final expedition. Before leaving they sailed south through territories they named such as Cabo Blanco, port of Payta, Sechura, Punta de Aguja, Santa Cruz, and Trujillo, reaching the ninth degree south.
+In the spring of 1528 Pizarro sailed for Spain, were he had an interview with king Charles I. The king heard of his expeditions in lands rich in gold and silver and promised to support him. The Capitulación de Toledo[81] authorized Pizarro to proceed with the conquest of Peru. Pizarro convinced then many friends and relatives to join: his brothers Hernándo Pizarro, Juan Pizarro, Gonzalo Pizarro and also Francisco de Orellana, who would later explore the Amazon River, as well as his cousin Pedro Pizarro.
+Pizarro's third and final expedition left Panama for Peru on 27 December 1530. With three ships and one hundred and eighty men they landed near Ecuador and sailed to Tumbes, finding the place destroyed. They entered the interior and established the first Spanish settlement in Peru, San Miguel de Piura. One of the men returned with an Incan envoy and an invitation for a meeting. Inca were at a civil war and Atahualpa had been resting in northern Peru following the defeat of his brother Huascar. After marching for two months, they approached Atahualpa. He, however, refused the Spanish by saying he would "be no man's tributary." There were fewer than 200 Spanish to his 80,000 soldiers, but Pizarro attacked and won the Incan army in the Battle of Cajamarca, taking Atahualpa captive at the so-called ransom room. Despite fulfilling his promise of filling one room with gold and two with silver, he was convicted for killing his brother and plotting against Pizarro, and was executed.
+In 1533, Pizarro invaded Cuzco with indigenous troops and wrote to the king Charles I: "This city is the greatest and the finest ever seen in this country or anywhere in the Indies... it is so beautiful and has such fine buildings that it would be remarkable even in Spain." After the Spanish had sealed the conquest of Peru, Jauja in fertile Mantaro Valley was established as Peru's provisional capital, but it was too far up in the mountains that Pizarro thus founded the city of Lima on 18 January 1535, considered by himself one of the most important acts in his life.
+[edit]New trade routes (1542–1565)
+
+
+
+Portuguese trade routes (blue) and the rival Manila-Acapulco galleons trade routes (white) established in 1568
+In 1543 three Portuguese traders, accidentally became the first Westerners to reach and trade with Japan. According Fernão Mendes Pinto, who claimed to be in this journey, they arrived at Tanegashima, where the locals were impressed by firearms, that would be immediately made by the Japanese on a large scale.[82]
+The Spanish conquest of the Philippines was ordered by Philip II of Spain, and Andrés de Urdaneta was the designated commander. Urdaneta agreed to accompany the expedition but refused to command and Miguel López de Legazpi was appointed instead. The expedition set sail on November 1564. After spending some time on the islands, Legazpi sent Urdaneta back to find a better return route. Urdaneta set sail from San Miguel on the island of Cebu on June 1, 1565, but was obliged to sail as far as 38 degrees North latitude to obtain favourable winds.
+
+
+Portuguese carrack in Nagasaki, Nanban art attributed to Kano Naizen, 1570–1616 Japan
+He reasoned that the trade winds of the Pacific might move in a gyre as the Atlantic winds did. If in the Atlantic, ships made the Volta do mar to pick up winds that would bring them back from Madeira, then, he reasoned, by sailing far to the north before heading east, he would pick up trade winds to bring him back to North America. His hunch paid off, and he hit the coast near Cape Mendocino, California, then followed the coast south. The ship reached the port of Acapulco, on October 8, 1565, having traveled 12,000 miles (20,000 km) in 130 days. Fourteen of his crew died; only Urdaneta and Felipe de Salcedo, nephew of López de Legazpi, had strength enough to cast the anchors.
+Thus, a cross-Pacific Spanish route was established, between Mexico and the Philippines. For a long time these routes were used by the Manila galleons, thereby creating a trade link joining China, the Americas, and Europe via the combined trans-Pacific and trans-Atlantic routes.
+[edit]Northern European involvement (1595–1600s)
+
+
+
+In 1570 (May 20) Gilles Coppens de Diest at Antwerp published 53 maps created by Abraham Ortelius under the title Theatrum Orbis Terrarum, considered the "first modern atlas". Three Latin editions of this (besides a Dutch, a French and a German edition) appeared before the end of 1572; the atlas continued to be in demand till about 1612. This is the world map from this atlas.
+Nations outside Iberia refused to acknowledge the Treaty of Tordesillas. France, the Netherlands and England each had a long maritime tradition and had been engaging in privateering. Despite Iberian protections, the new technologies and maps soon made their way north.
+In 1568 the Dutch rebelled against the rule of Philip II of Spain leading to the Eighty Years' War. War between England and Spain also broke out. In 1580 Philip II became King of Portugal, as rightful heir to the Crown. The combined empires were simply too big to go unchallenged by European rivals.
+Philip's troops conquered the important trading cities of Bruges and Ghent. Antwerp, then the most important port in the world, fell in 1585. Protestant population was given two years to settle affairs before leaving the city.[83] Many settled in Amsterdam. Those were mainly skilled craftsmen, rich merchants of the port cities and refugees that fled religious persecution, particularly Sephardi Jews from Portugal and Spain and, later, the Huguenots from France. The Pilgrim Fathers also spent time there before going to the New World. This mass immigration was an important driving force: a small port in 1585, Amsterdam quickly transformed into one of the most important commercial centers in the world. After the defeat of the Spanish Armada in 1588 there was a huge expansion of maritime trade.
+The emergence of Dutch maritime power was swift and remarkable: for years Dutch sailors had participated in Portuguese voyages to the east, as able seafarers and keen mapmakers. In 1592, Cornelis de Houtman was sent by Dutch merchants to Lisbon, to gather as much information as he could about the Spice Islands. In 1595, merchant and explorer Jan Huyghen van Linschoten, having traveled widely in the Indian Ocean at the service of the Portuguese, published a travel report in Amsterdam, the "Reys-gheschrift vande navigatien der Portugaloysers in Orienten" ("Report of a journey through the navigations of the Portuguese in the East").[84] This included vast directions on how to navigate between Portugal and the East Indies and to Japan. That same year Houtman followed this directions in the Dutch first exploratory travel that discovered a new sea route, sailing directly from Madagascar to Sunda Strait in Indonesia and signing a treaty with the Banten Sultan.
+Dutch and British interest fed on new information led to a movement of commercial expansion, and the foundation of English (1600), and Dutch (1602) chartered companies. Dutch, French, and English sent ships which flouted the Portuguese monopoly, concentrated mostly on the coastal areas, which proved unable defend such a vast and dispersed venture.[85]
+[edit]Exploring North America
+
+
+Map of Henry Hudson's 1609–1611 voyages to North America for the Dutch East India Company (VOC)
+The 1497 English expedition led by John Cabot was the first of a series of French and English missions exploring North America. Spain put limited efforts into exploring the northern part of the Americas, as its resources were concentrated in Central and South America where more wealth had been found.[86] These expeditions were hoping to find an oceanic Northwest Passage to Asian trade.[86] This was never discovered, but other possibilities were found and in the early 17th century colonists from a number of Northern European states began to settle on the east coast of North America.
+In 1524, Giovanni da Verrazzano, an Italian sailing at the service of king Francis I of France- who was motivated by the "insolence" of the division of the world between the Portuguese and the Spanish- made the first recorded European to visit the Atlantic Coast of the present-day United States, having explored the coast from South Carolina to Nova Scotia, and islands such as Newfoundland. In the same year Estevão Gomes, a Portuguese cartographer who had sailed in the fleet of Ferdinand Magellan, explored Nova Scotia province sailing South through Maine, where he entered New York Harbor, the Hudson River and eventually reached Florida in August 1525. As a result of his expedition, the 1529 Diogo Ribeiro world map outlines the East coast of North America almost perfectly. From 1534 to 1536 French explorer Jacques Cartier, believed to have accompanied da Verrazzano to Nova Scotia and Brazil, was the first European to travel inland in North America, describing the Gulf of Saint Lawrence, which he named "The Country of Canadas", after Iroquois names, claiming what is now Canada for Francis I of France.[87][88]
+
+
+Henry Hudson's ship Halve Maen in the Hudson River
+Europeans explored the Pacific Coast beginning in the mid- 16th century. Francisco de Ulloa explored the Pacific coast of present-day Mexico including the Gulf of California, proving that Baja California was a peninsula [89] but in spite of his discoveries the myth persisted in Europe that California was an island. His account provided the first recorded use of the name "California". João Rodrigues Cabrilho, a Portuguese navigator sailing for the Spanish Crown, was the first European to set foot in California, landing on September 28, 1542 on the shores of San Diego Bay and claiming California for Spain.[90] He also landed on San Miguel, one of the Channel Islands, and continued as far as Point Reyes. After his death the crew continued exploring as far north as Oregon.
+The English Francis Drake sailed along the coast in 1579 somewhere north of Cabrillo's landing site—the actual location of Drake's landing was secret and is still undetermined[91]—and claimed the land for England, calling it Nova Albion. The term "Nova Albion" was therefore used on many European maps to designate territory north of the Spanish settlements.[92]
+Between 1609–1611, English Henry Hudson, after several voyages on behalf of English merchants to explore a prospective Northeast Passage to India, explored the region around modern New York City while looking for a western route to Asia under the auspices of the Dutch East India Company (VOC). He explored the Hudson River and laid the foundation for Dutch colonization of the region. Hudson's final expedition ranged farther north in search of the Northwest Passage, leading to his discovery of the Hudson Strait and Hudson Bay. After wintering in the James Bay, Hudson tried to press on with his voyage in the spring of 1611, but his crew mutinied and they cast him adrift.
+[edit]Search for a Northern Route
+
+
+1599 map of Arctic exploration by Willem Barentsz in his third voyage
+France, the Netherlands, and England were left without a sea route to Asia, either via Africa or South America. When it became apparent that there was no route through the heart of the American continent, attention turned to the possibility of a passage through northern waters, which English called the Northwest Passage. The desire to establish such a route motivated much of the European exploration of both coasts of North America and in Russia. In Russia the idea of a possible seaway connecting the Atlantic and the Pacific was first put forward by the diplomat Gerasimov in 1525, although Russian settlers on the coast of the White Sea, the Pomors, had been exploring parts of the route as early as the 11th century.
+In 1553 English explorer Hugh Willoughby with chief pilot Richard Chancellor were sent out with three vessels in search of a passage by London's Company of Merchant Adventurers to New Lands. During the voyage across the Barents Sea, Willoughby thought he saw islands to the north, and islands called Willoughby's Land were shown on maps published by Plancius and Mercator into the 1640s.[93] The vessels were separated by "terrible whirlwinds" in the Norwegian Sea and Willoughby sailed into a bay near the present border between Finland and Russia. His ships with the frozen crews, including Captain Willoughby and his journal, were found by Russian fishermen a year later. Richard Chancellor was able to drop anchor in the White Sea and trudge his way overland to Moscow and Ivan the Terrible's Court, opening trade with Russia and the Company of Merchant Adventurers became the Muscovy Company.
+[edit]Barentsz' Arctic exploration
+5 June 1594, Dutch cartographer Willem Barentsz departed from Texel in a fleet of three ships to enter the Kara Sea, with the hopes of finding the Northeast passage above Siberia.[94] At Williams Island the crew encountered a polar bear for the first time. They managed to bring it on board, but the bear rampaged and was killed. Barentsz reached the west coast of Novaya Zemlya and followed it northward, before being forced to turn back in the face of large icebergs.
+The following year, Prince Maurice of Orange named him Chief Pilot of a new expedition of six ships, loaded with merchant wares that the Dutch hoped to trade with China.[95] The party came across Samoyed "wild men" but eventually turned back upon discovering the Kara Sea frozen. In 1596, the States-General offered a high reward for anybody who successfully navigated the Northeast Passage. The Town Council of Amsterdam purchased and outfitted two small ships, captained by Jan Rijp and Jacob van Heemskerk, to search for the elusive channel, under the command of Barents. They set off on May, and on June discovered Bear Island and Spitsbergen, sighting its northwest coast. They saw a large bay, later called Raudfjorden and entered Magdalenefjorden, which they named Tusk Bay, sailing into the northern entrance of Forlandsundet, which they called Keerwyck, but were forced to turn back because of a shoal. On 28 June they rounded the northern point of Prins Karls Forland, which they named Vogelhoek, on account of the large number of birds, and sailed south, passing Isfjorden and Bellsund, which were labelled on Barentsz's chart as Grooten Inwyck and Inwyck.
+
+
+Crew of Willem Barentsz fighting a polar bear
+The ships once again reached Bear Island on 1 July, which led to a disagreement. They parted ways, with Barentsz continuing northeast, while Rijp headed north. Barentsz reached Novaya Zemlya and, to avoid becoming entrapped in ice, headed for the Vaigatch Strait but became stuck within the icebergs and floes. Stranded, the 16-man crew was forced to spend the winter on the ice. The crew used lumber from their ship to build a lodge they called Het Behouden Huys (The Kept House). Dealing with extreme cold, they used the merchant fabrics to make additional blankets and clothing and caught arctic foxes in primitive traps, as well as polar bears. When June arrived, and the ice had still not loosened its grip on the ship, scurvy-ridden survivors took two small boats out into the sea. Barentsz died at sea on 20 June 1597, while studying charts. It took seven more weeks for the boats to reach Kola where they were rescued by a Russian merchant vessel. Only 12 crewmen remained, reaching Amsterdam in November two of Barentsz' crewmembers later published their journals, Jan Huyghen van Linschoten, who had accompanied him on the first two voyages, and Gerrit de Veer who had acted as the ship's carpenter on the last.
+In 1608, Henry Hudson made a second attempt, trying to go across the top of Russia. He made it to Novaya Zemlya but was forced to turn back. Between 1609–1611, Hudson, after several voyages on behalf of English merchants to explore a prospective Northern Sea Route to India, explored the region around modern New York City while looking for a western route to Asia under the auspices of the Dutch East India Company (VOC).
+[edit]Dutch Australia and New Zealand
+
+
+The route of Abel Tasman's 1642 and 1644 voyages in New Holland (Australia) in the service of the VOC (Dutch East India Company)
+Terra Australis Ignota (Latin, "the unknown land of the south") was a hypothetical continent appearing on European maps from the 15th to the 18th centuries, with roots in a notion introduced by Aristotle. It was depicted on the mid-16th-century Dieppe maps, where its coastline appeared just south of the islands of the East Indies; it was often elaborately charted, with a wealth of fictitious detail. The discoveries reduced the area where the continent could be found; however, many cartographers held to Aristotle's opinion, like Gerardus Mercator (1569) and Alexander Dalrymple even so late as 1767[96] argued for its existence, with such arguments as that there should be a large landmass in the south as a counterweight to the known landmasses in the Northern Hemisphere. As new lands were discovered, they were often assumed to be parts of this hypothetical continent.
+Juan Fernandez, sailing from Chile in 1576, claimed he had discovered the Southern Continent.[97] Luis Váez de Torres, a Galician navigator working for the Spanish Crown, proved the existence of a passage south of New Guinea, now known as Torres Strait. Pedro Fernandes de Queirós, a Portuguese navigator sailing for the Spanish Crown, saw a large island south of New Guinea in 1606, which he named La Australia del Espiritu Santo. He represented this to the King of Spain as the Terra Australis incognita.
+
+
+Duyfken replica, Swan River, Australia
+Dutch navigator and colonial governor, Willem Janszoon was the first European known to have seen the coast of Australia. Janszoon sailed from the Netherlands for the East Indies for the third time on December 18, 1603, as captain of the Duyfken (or Duijfken, meaning "Little Dove"), one of twelve ships of the great fleet of Steven van der Hagen.[98] Once in the Indies, Janszoon was sent to search for other outlets of trade, particularly in "the great land of Nova Guinea and other East and Southlands." On November 18, 1605, the Duyfken sailed from Bantam to the coast of western New Guinea. Janszoon then crossed the eastern end of the Arafura Sea, without seeing the Torres Strait, into the Gulf of Carpentaria. On February 26, 1606, he made landfall at the Pennefather River on the western shore of Cape York in Queensland, near the modern town of Weipa. This is the first recorded European landfall on the Australian continent. Janszoon proceeded to chart some 320 km of the coastline, which he thought was a southerly extension of New Guinea. In 1615, Jacob le Maire and Willem Schouten's rounding of Cape Horn proved that Tierra del Fuego was a relatively small island.
+In 1642–1644 Abel Tasman, also a Dutch explorer and merchant in the service of the VOC, circumnavigated New Holland proving that Australia was not part of the mythical southern continent. He was the first known European expedition to reach the islands of Van Diemen's Land (now Tasmania) and New Zealand and to sight the Fiji islands, which he did in 1643. Tasman, his navigator Visscher, and his merchant Gilsemans also mapped substantial portions of Australia, New Zealand and the Pacific Islands.
+[edit]Russian exploration of Siberia (1581–1660)
+
+Main articles: Russian conquest of Siberia, Conquest of the Khanate of Sibir, Siberian river routes, and Russian explorers
+
+
+Siberian river routes were of primary importance in the process of Russian exploration and conquest of Siberia.
+In the mid-16th century the Tsardom of Russia conquered the Tatar khanates of Kazan and Astrakhan, thus annexing the entire Volga Region and opening the way to the Ural Mountains. The colonisation of the new easternmost lands of Russia and further onslaught eastward was led by the rich merchants Stroganovs. Tsar Ivan IV granted vast estates near the Urals as well as tax privileges to Anikey Stroganov, who organized large scale migration to these lands. Stroganovs developed farming, hunting, saltworks, fishing, and ore mining on the Urals and established trade with Siberian tribes.
+[edit]Conquest of the Khanate of Sibir
+Around 1577, Semyon Stroganov and other sons of Anikey Stroganov hired a Cossack leader called Yermak to protect their lands from the attacks of Siberian Khan Kuchum. By 1580 Stroganovs and Yermak came up with the idea of the military expedition to Siberia, in order to fight Kuchum in his own land. In 1581 Yermak began his voyage into the depths of Siberia. After a few victories over the khan's army, Yermak's people defeated the main forces of Kuchum on Irtysh River in a 3-day Battle of Chuvash Cape in 1582. The remains of the khan's army retreated to the steppes, and thus Yermak captured the Siberia Khanate, including its capital Qashliq near modern Tobolsk. Kuchum still was strong and suddenly attacked Yermak in 1585 in the dead of night, killing most of his people. Yermak was wounded and tried to swim across the Wagay River (Irtysh's tributary), but drowned under the weight of his own chain mail. The Cossacks had to withdraw from Siberia completely, but thanks to Yermak's having explored all the main river routes in West Siberia, Russians successfully reclaimed all his conquests just several years later.
+
+
+Yermak Timofeyevich and his band of adventurers crossing the Ural Mountains at Tagil, entering Asia from Europe
+[edit]Siberian river routes
+In the early 17th century the eastward movement of Russians was slowed by the internal problems in the country during the Time of Troubles. However, very soon the exploration and colonization of the huge territories of Siberia was resumed, led mostly by Cossacks hunting for valuable furs and ivory. While Cossacks came from the Southern Urals, another wave of Russians came by the Arctic Ocean. These were Pomors from the Russian North, who already had been making fur trade with Mangazeya in the north of the Western Siberia for quite a long time. In 1607 the settlement of Turukhansk was founded on the northern Yenisey River, near the mouth of Lower Tunguska, and in 1619 Yeniseysky ostrog was founded on the mid-Yenisey at the mouth of the Upper Tunguska.
+Between 1620-1624 a group of fur hunters led by Demid Pyanda left Turukhansk and explored some 1,430 miles (2,300 km) of the Lower Tunguska, wintering in the proximity of the Vilyuy and Lena rivers. According to later legendary accounts (folktales collected a century after the fact), Pyanda discovered the Lena River. He allegedly explored some 1,500 miles (2,400 km) of its length, reaching as far as central Yakutia. He returned back up the Lena until it became too rocky and shallow, and portaged to the Angara. In this way, Pyanda may have become the first Russian to meet Yakuts and Buryats. He built new boats and explored some 870 miles (1,400 km) of the Angara, finally reaching Yeniseysk and discovering that the Angara (a Buryat name) and Upper Tunguska (Verkhnyaya Tunguska, as initially known by Russians) are one and the same river.
+In 1627 Pyotr Beketov was appointed Yenisey voevoda in Siberia. He successfully carried out the voyage to collect taxes from Zabaykalye Buryats, becoming the first Russian to step in Buryatia. He founded the first Russian settlement there, Rybinsky ostrog. Beketov was sent to the Lena River in 1631, where in 1632 he founded Yakutsk and sent his Cossacks to explore the Aldan and farther down the Lena, to found new fortresses, and to collect taxes.[99]
+Yakutsk soon turned into a major starting point for further Russian expeditions eastward, southward and northward. Maksim Perfilyev, who earlier had been one of the founders of Yeniseysk, founded Bratsky ostrog on the Angara in 1631, and in 1638 he became the first Russian to step into Transbaikalia, travelling there from Yakutsk.[100][101]
+
+
+A map of Irkutsk and Lake Baikal in its neighbourhood, as depicted in the late 17th century Remezov Chronicle.
+In 1643 Kurbat Ivanov led a group of Cossacks from Yakutsk to the south of the Baikal Mountains and discovered Lake Baikal, visiting its Olkhon Island. Later Ivanov made the first chart and description of Baikal.[102]
+[edit]Russians reach the Pacific
+In 1639 a group of explorers led by Ivan Moskvitin became the first Russians to reach the Pacific Ocean and to discover the Sea of Okhotsk, having built a winter camp on its shore at the Ulya River mouth. The Cossacks learned from the locals about the proximity of the Amur River. In 1640 they apparently sailed south, explored the south-eastern shores of the Okhotsk Sea, perhaps reaching the mouth of the Amur River and possibly discovering the Shantar Islands on their way back. Based on Moskvitin's account, Kurbat Ivanov draw the first Russian map of the Far East in 1642.
+In 1643, Vasily Poyarkov crossed the Stanovoy Range and reached the upper Zeya River in the country of the Daurs, who were paying tribute to the Manchu Chinese. After wintering, in 1644 Poyarkov pushed down the Zeya and became the first Russian to reach the Amur River. He sailed down the Amur and finally discovered the mouth of that great river from land. Since his Cossacks provoked the enmity of the locals behind, Poyarkov chose a different way back. They built boats and in 1645 sailed along the Sea of Okhotsk coast to the Ulya River and spent the next winter in the huts that had been built by Ivan Moskvitin six years earlier. In 1646 they returned to Yakutsk.
+
+
+A 17th century koch in a museum in Krasnoyarsk. Kochs were the earliest icebreakers and were widely used by Russians in the Arctic and on Siberian rivers.
+In 1644 Mikhail Stadukhin discovered the Kolyma River and founded Srednekolymsk. A merchant named Fedot Alekseyev Popov organized a further expedition eastward, and Semyon Dezhnyov became a captain of one of the kochi. In 1648 they sailed from Srednekolymsk down to the Arctic and after some time they rounded Cape Dezhnyov, thus becoming the first explorers to pass through the Bering Strait and to discover Chukotka and the Bering Sea. All their kochi and most of their men (including Popov himself) were lost in storms and clashes with the natives. A small group led by Dezhnyov reached the mouth of the Anadyr River and sailed up it in 1649, having built new boats from the wreckage. They founded Anadyrsk and were stranded there, until Stadukhin found them, coming from Kolyma by land.[103] Subsequetly Stadukhin set off south in 1651 and discovered Penzhin Bay on the northern coast of the Okhotsk Sea. He also may have explored the western shores of Kamchatka.
+In 1649–50 Yerofey Khabarov became the second Russian to explore the Amur River. Through Olyokma, Tungur and Shilka Rivers he reached Amur (Dauria), returned to Yakutsk and then back to Amur with a larger force in 1650–53. This time he was met with armed resistance. He built winter quarters at Albazin, then sailed down Amur and found Achansk, which preceded the present-day Khabarovsk, defeating or evading large armies of Daurian Manchu Chinese and Koreans on his way. He charted the Amur in his Draft of the Amur river.[104] Subsequently Russians held on to the Amur Region until 1689, when by the Treaty of Nerchinsk this land was assigned to Chinese Empire (it was returned, however, by the Treaty of Aigun in 1858).
+In 1659–65 Kurbat Ivanov was the next head of Anadyrsky ostrog after Semyon Dezhnyov. In 1660 he sailed from Anadyr Bay to Cape Dezhnyov. Atop his earlier pioneering charts, Ivanov is credited with creation of the early map of Chukotka and Bering Strait, which was the first to show on paper (very schematically) the yet undiscovered Wrangel Island, both Diomede Islands and Alaska, based on the data collected from the natives of Chukotka.
+So, by the mid-17th century Russians established the borders of their country close to modern ones, and explored almost the whole of Siberia, except the eastern Kamchatka and some regions north of the Arctic Circle. The conquest of Kamchatka later would be achieved in the early 1700-s by Vladimir Atlasov, while the discovery of the Arctic coastline and Alaska would be completed by the Great Northern Expedition in 1733–1743.
+See Major explorations after the Age of Discovery for later exploration.
+[edit]Global impact
+
+Main articles: Columbian Exchange, History of colonialism, and Globalization
+
+
+New World crops. Top left: 1. Corn (Zea mays) 2. Tomato (Solanum lycopersicum) 3. Potato (Solanum tuberosum) 4. Vanilla (Vanilla) 5. Pará rubber tree? (Hevea brasiliensis) 6. Cacao (Theobroma cacao) 7. Tobacco (Nicotiana rustica)
+European overseas expansion led to the contact between the Old and New Worlds producing the Columbian Exchange,[105] named after Columbus. It involved the transfer of goods unique to one hemisphere to another. Europeans brought cattle, horses, and sheep to the New World, and from the New World Europeans received tobacco, potatoes and maize. Other items becoming important in global trade were the sugarcane and cotton crops of the Americas, and the gold and silver brought from the Americas not only to Europe but elsewhere in the Old World.
+The new trans-oceanic links and their domination by the European powers led to the Age of Imperialism, where European colonial powers came to control most of the planet. The European appetite for trade, commodities, empire and slaves greatly affected many other areas of the world. Spain participated in the destruction of aggressive empires in America, only to substitute for its own and forcibly replaced the original religions. The pattern of territorial aggression was repeated by other European empires, most notably the Dutch, Russian, French and British. New religions replaced older "pagan" rituals, as were new languages, political and sexual cultures, and in some areas like North America, Australia, New Zealand and Argentina, the indigenous peoples were abused and driven off most of their lands, being reduced to small, dependent minorities.
+
+
+Portuguese Nanbanjin arriving at Japan much to the surprise of locals, detail from Nanban panel from Kanō Domain, 1593–1600
+Similarly, in coastal Africa, local states supplied the appetite of European slave traders, changing the complexion of coastal African states and fundamentally altering the nature of African slavery, causing impacts on societies and economies deep inland. (See Atlantic slave trade).
+Aboriginal Peoples were living in North America at this time and still do today. There were many conflicts between Europeans and Natives. The Europeans had many advantages over the Natives. They gave them diseases that they had not been exposed to before and this wiped out 50–90% of their population. (See Population history of American indigenous peoples.)[106]
+Since being introduced by Portuguese in the 16th century,[107] maize and manioc have replaced traditional African crops as the continent's most important staple food crops.[108] Alfred W. Crosby speculated that increased production of maize, manioc, and other American crops "enabled the slave traders drew many, perhaps most, of their cargoes from the rain forest areas, precisely those areas where American crops enabled heavier settlement than before."[109]
+During the 16th century Chinese economy, under the Ming Dynasty, was stimulated by trade with the Portuguese, Spanish, and Dutch. China became involved in a new global trade of goods, plants, animals, and food crops known as the Columbian Exchange. Trade with European powers and the Japanese brought in massive amounts of silver, which then replaced copper and paper banknotes as the common medium of exchange in China. During the last decades of the Ming the flow of silver into China was greatly diminished, thereby undermining state revenues and indeed the entire Ming economy. This damage to the economy was compounded by the effects on agriculture of the incipient Little Ice Age, natural calamities, crop failure, and sudden epidemics. The ensuing breakdown of authority and people's livelihoods allowed rebel leaders such as Li Zicheng to challenge Ming authority.
+
+
+Flemish astronomer Ferdinand Verbiest (1623–88) with an armillary sphere painted as Chinese character Wu Yong ("resourceful star Wu Yong"(智多星呉用)). Chinese astronomers collaborated extensively with Jesuit scholars, who brought Copernican and Tychonic systems from Europe. Painting by Utagawa Kuniyoshi, British Museum
+New crops that had come to Asia from the Americas via the Spanish colonizers in the 16th century contributed to the Asia's population growth.[110] Although the bulk of imports to China were silver, the Chinese also purchased New World crops from the Spanish Empire. This included sweet potatoes, maize, and peanuts, foods that could be cultivated in lands where traditional Chinese staple crops—wheat, millet, and rice—couldn't grow, hence facilitating a rise in the population of China.[111][112] In the Song Dynasty (960–1279), rice had become the major staple crop of the poor;[113] after sweet potatoes were introduced to China around 1560, it gradually became the traditional food of the lower classes.[114]
+The arrival of the Portuguese to Japan in 1543 initiated the Nanban trade period, with the Japanese adopting several technologies and cultural practices, like the arquebus, European-style cuirasses, European ships, Christianity, decorative art, and language. After the Chinese had banned direct trade by Chinese merchants with Japan, the Portuguese filled this commercial vacuum as intermediaries between China and Japan. The Portuguese bought Chinese silk and sold it to the Japanese in return for Japanese-mined silver; since silver was more highly valued in China, the Portuguese could then use Japanese silver to buy even larger stocks of Chinese silk.[115] However, by 1573—after the Spanish established a trading base in Manila—the Portuguese intermediary trade was trumped by the prime source of incoming silver to China from the Spanish Americas.[116]
+Italian Jesuit Matteo Ricci (1552–1610), was the first European allowed into the Forbidden City, taught the Chinese how to construct and play the spinet, translated Chinese texts into Latin and vice versa, and worked closely with his Chinese associate Xu Guangqi (1562–1633) on mathematical work.
+[edit]Economic impact in Europe
+Main articles: Commercial Revolution, Renaissance, and Renaissance in the Low Countries
+
+
+World map from Johannes Kepler's Rudolphine Tables (1627), incorporating many of the new discoveries.
+As a wider variety of global luxury commodities entered the European markets by sea, previous European markets for luxury goods stagnated. The Atlantic trade largely supplanted pre-existing Italian and German trading powers which had relied on their Baltic, Russian and Islamic trade links. The new commodities also caused social change, as sugar, spices, silks and chinawares entered the luxury markets of Europe.
+The European economic center shifted from the Mediterranean to Western Europe. The city of Antwerp, part of the Duchy of Brabant, became "the center of the entire international economy,[117] and the richest city in Europe at this time.[118] Centered in Antwerp first and then in Amsterdam, "Dutch Golden Age" was tightly linked to the Age of Discovery. Francesco Guicciardini, a Venetian envoy, stated that hundreds of ships would pass Antwerp in a day, and 2,000 carts entered the city each week. Portuguese ships laden with pepper and cinnamon would unload their cargo. With many foreign merchants resident in the city and governed by an oligarchy of banker-aristocrats forbidden to engage in trade, the economy of Antwerp was foreigner-controlled, which made the city very international, with merchants and traders from Venice, Ragusa, Spain and Portugal and a policy of toleration, which attracted a large orthodox Jewish community. The city experienced three booms during its golden age, the first based on the pepper market, a second launched by American silver coming from Seville (ending with the bankruptcy of Spain in 1557), and a third boom, after the Treaty of Cateau-Cambresis, in 1559, based on the textiles industry.
+Despite initial hostilities, by 1549 the Portuguese were sending annual trade missions to Shangchuan Island in China. In 1557 they managed to convince the Ming court to agree on a legal port treaty that would establish Macau as an official Portuguese trade colony.[119] The Portuguese friar Gaspar da Cruz (c. 1520 February 5, 1570) wrote the first complete book on China and the Ming Dynasty that was published in Europe; it included information on its geography, provinces, royalty, official class, bureaucracy, shipping, architecture, farming, craftsmanship, merchant affairs, clothing, religious and social customs, music and instruments, writing, education, and justice.[120]
+
+
+Delftware depicting Chinese scenes, 18th century. Musee Ernest Cognacq
+From China the major exports were silk and porcelain, adapted to meet European tastes. The Chinese export porcelains were held in such great esteem in Europe that, in English, china became a commonly–used synonym for porcelain. Kraak porcelain (believed to be named after the Portuguese carracks in which it was transported) was among the first Chinese ware to arrive in Europe in mass quantities. Only the richest could afford these early imports, and Kraak often featured in Dutch still life paintings.[121] Soon the Dutch East India Company established a lively trade with the East, having imported 6 million porcelain items from China to Europe between the years 1602 to 1682.[122][123] The Chinese workmanship impressed many. Between 1575 and 1587 Medici porcelain from Florence was the first successful attempt to imitate Chinese porcelain. Although Dutch potters did not immediately imitate Chinese porcelain, they began to do it when the supply to Europe was interrupted, after the death of Wanli Emperor in 1620. Kraak, mainly the blue and white porcelain, was imitated all over the world by potters in Arita, Japan and Persia— where Dutch merchants turned when the fall of the Ming Dynasty rendered Chinese originals unavailable[124]—and ultimately in Delftware. Dutch and later English Delftware inspired by Chinese designs persisted from about 1630 to the mid-18th century alongside European patterns.
+
+
+Jan Davidsz. de Heem, detail of silverware from "A Richly Laid Table with Parrots", c. 1650
+Antonio de Morga (1559–1636), a Spanish official in Manila, listed an extensive inventory of goods that were traded by Ming China at the turn of the 17th century, noting there were "rarities which, did I refer to them all, I would never finish, nor have sufficient paper for it".[125] After noting the variety of silk goods traded to Europeans, Ebrey writes of the considerable size of commercial transactions: In one case a galleon to the Spanish territories in the New World carried over 50,000 pairs of silk stockings. In return China imported mostly silver from Peruvian and Mexican mines, transported via Manila. Chinese merchants were active in these trading ventures, and many emigrated to such places as the Philippines and Borneo to take advantage of the new commercial opportunities.[111]
+The increase in wealth experienced by Spain coincided with a major inflationary cycle both within Spain and Europe, known as price revolution. Spain had amassed large quantities of gold and silver from the New World[126] In the 1520s large scale extraction of silver from Mexico's Guanajuato began. With the opening of the silver mines in Zacatecas and Bolivia's Potosí in 1546 large shipments of silver became the fabled source of wealth. During the 16th century, Spain held the equivalent of US$1.5 trillion (1990 terms) in gold and silver from New Spain. Being the most powerful European monarch at a time full of war and religious conflicts, Philip II squandered wealth in arts and wars across Europe. "I learnt a proverb here", said a French traveler in 1603: "Everything is dear in Spain except silver".[127] The spent silver, suddenly spread throughout a previously cash starved Europe, caused widespread inflation.[128] The inflation was worsened by a growing population but a static production level, low salaries and a rising cost of living. Increasingly Spain became dependent on the revenues flowing in from the mercantile empire in the Americas, leading to Spain's first bankruptcy in 1557 due to rising military costs.[129] Philip II of Spain, defaulted on their debt several times, had to declare four state bankruptcies in 1557, 1560, 1575 and 1596, becoming the first sovereign nation in history to declare bankruptcy. The increase in prices as a result of currency circulation fueled the growth of the commercial middle class in Europe, the bourgeoisie, which came to influence the politics and culture of many countries.
+[edit]See also
+
+Age of Sail
+Chronology of European exploration of Asia
+European exploration of Australia
+Timeline of European exploration
+Major explorations after the Age of Discovery
+[edit]References
+
+^ Mancall 1999, pp. 26–53.
+^ Parry 1963, pp. 1–5.
+^ Arnold 2002, p. 11.
+^ Abu-Lughod 1991, p. 121.
+^ silk-road 2008, web.
+^ a b DeLamar 1992, p. 328.
+^ Abu-Lughod 1991, p. 158.
+^ Mancall 2006, p. 3.
+^ Parry 2006, p. 69.
+^ Diffie 1977, pp. 24—25.
+^ Dunn 2004, p. 310.
+^ DeLamar 1992, p. 329.
+^ Arnold 2002, p. 7.
+^ Tamura 1997, p. 70.
+^ Cromer 1995, p. 117.
+^ Tsai 2002, p. 206.
+^ Mancall 2006, p. 115.
+^ Mancall 2006, p. 17.
+^ Spice importance for medieval humorism principles of medicine was such that shortly after entering the trade, apothecaries and physicians like Tomé Pires and Garcia da Orta (see Burns 2001, p. 14) were sent to India having studied spices in works like Suma Oriental (see Pires 1512, p. lxii) and Colóquios dos simples e drogas da India ("Conversations on the simples, drugs and materia medica of India)
+^ ScienceDaily 1998, news.
+^ Spufford 1989, pp. 339–349.
+^ Spufford 1989, p. 343.
+^ Abu-Lughod 1991, p. 122.
+^ Parry 1981, p. 33.
+^ Diffie 1977, p. 210.
+^ Newitt 2005, p. 9.
+^ Diffie 1960, p. 49.
+^ Diffie 1977, pp. 29—31.
+^ Butel 1999, p. 36.
+^ DeLamar 1992, p. 333.
+^ Anderson 2000, p. 50.
+^ Locke 1824, p. 385.
+^ Boxer 1969, p. 29.
+^ Parry 1981, p. 145.
+^ Diffie 1977, pp. 132—134.
+^ Russell-Wood 1998, p. 9.
+^ Daus 1983, p. 33.
+^ Diffie 1977, pp. 145–148.
+^ DeLamar 1992, p. 335.
+^ Anderson 2000, p. 59.
+^ DeLamar 1992, p. 341.
+^ Maclean 2008, web.
+^ Forbes 1993, p. 22
+^ Mancall 1999, p. 26.
+^ DeLamar 1992, p. 345.
+^ Davenport 1917, pp. 107–111.
+^ Croxton 2007, web (on subscription)
+^ Diffie 1977, pp. 463–464.
+^ Diffie 1977, pp. 464–465.
+^ Diffie 1977, p. 185.
+^ Crow 1992, p. 136.
+^ Diffie 1977, pp. 456–462.
+^ Catholic Encyclopedia 2, web.
+^ Arciniegas 1978, pp. 295–300.
+^ Diffie 1977, pp. 458.
+^ Morison 1942, pp. 65–75.
+^ Milton 1999, pp. 5–7.
+^ Pfoundes 1882, p. 89.
+^ Nowell 1947, p. 8.
+^ Cole 2002, p. 37.
+^ Otfinoski 2004, p. 33
+^ Zweig 1938, p. 51.
+^ Donkin 2003, p. 29.
+^ DeLamar 1992, p. 349.
+^ Catholic Encyclopedia 2007, web.
+^ Fernandez-Armesto 2006, p. 200.
+^ a b c Newitt 2005, p. 104.
+^ Lash 1998, p. 1397
+^ Lash 1998, p. 1397.
+^ Diffie 1977, p. 375.
+^ Diffie 1977, p. 368, 473.
+^ Galvano 1563, p. 168
+^ Fernandez-Armesto 2006, p. 202.
+^ U.C. 2009, web
+^ Lawson 2007, pp. 84–88.
+^ Lawson 2007, pp. 29–32.
+^ Weddle 1985, p. 42.
+^ a b c d e f Grunberg 2007, magazine
+^ Restall 2004, pp. 659–687.
+^ Castillo 1963, p. 294.
+^ Cervantes web, original text.
+^ Pacey 1991, p. 88
+^ Boxer 1977, p. 18.
+^ Linschoten 1598, original book
+^ Boxer 1969, p 109.
+^ a b Paine 2000, p. xvi.
+^ Cartier E.B. 2009, web.
+^ Histori.ca 2009, web.
+^ Gutierrez 1998, pp. 81–82.
+^ San Diego HS, web.
+^ Drake N.Guild, web.
+^ USF 2010, web
+^ Hacquebord 1995,
+^ Synge 1912, p.258
+^ ULT 2009, web
+^ Wilford 1982, p. 139.
+^ Medina 1918, pp. 136–246.
+^ Mutch 1942, p. 17.
+^ Lincoln 1994, p. 62
+^ The Perfilyevs, web (Russian)
+^ Sbaikal, web (Russian)
+^ Lincoln 1994, p. 247
+^ Fisher 1981, p. 30
+^ Dymytryshyn 1985, web
+^ Mayne 2009, web.
+^ Cook 1998, p. 13
+^ OSU 2006, news.
+^ Scitizen 2007, web.
+^ Crosby 1972, p. 188.
+^ Columbia University 2009, web.
+^ a b Ebrey 2006, p. 211.
+^ Crosby 1972, pp. 198–201
+^ Gernet 1962, p. 136.
+^ Crosby 1972, p. 200.
+^ Spence 1999, pp. 19–20.
+^ Brook 1998, p. 205.
+^ Braudel 1985, p. 143.
+^ Dunton 1896, p. 163.
+^ Brook 1998, p. 124.
+^ Aas 1976, pp. 410–411.
+^ For a study on foreign objects in Dutch paintings, see Hochstrasser 2007, Still life and trade in the Dutch golden age.
+^ Volker 1971, p. 22.
+^ Brook 1998, p. 206.
+^ Howard 1978, p. 7.
+^ Brook 1998, pp. 205–206.
+^ Walton 1994, pp. 43–44
+^ Braudel 1979, p. 171.
+^ Tracy 1994, p. 655.
+^ Braudel 1979, pp. 523–525
+[edit]Bibliography
+[edit]Primary sources
+Castillo, Bernal Díaz del, John Michael Cohen (1632-1963 reissue). The conquest of New Spain. Penguin Classics. ISBN 0140441239.
+Galvano, Antonio (1563–2004 reissue). The Discoveries of the World from Their First Original Unto the Year of Our Lord 1555, issued by the Hakluyt Society. Kessinger Publishing. ISBN 0766190226.
+Linschoten, Jan Huyghen van (1598–2004 reissue). Voyage to Goa and Back, 1583–1592, with His Account of the East Indies: From Linschoten's Discourse of Voyages, in 1598. New Delhi, AES. ISBN 8120619285.
+Pires, Tomé, Armando Cortesão, Francisco Rodrigues (1512-1990 reissue). The Suma oriental of Tome Pires: an account of the East, from the Red Sea to China, written in Malacca and India in 1512-1515; and, The book of Francisco Rodrigues: Pilot-Major of the armada that discovered Banda and the Moluccas. Asian Educational Services. ISBN 8120605357.
+Mancall, Peter C. (2006). Travel narratives from the age of discovery: an anthology. Oxford University Press US. ISBN 0195155971.
+"Real Cédula aprobando la capitulación concedida por Carlos V a Francisco Pizarro para la conquista y población del Perú". Biblioteca Virtual Miguel de Cervantes. Retrieved 17 June 2010.(Spanish)
+[edit]Books
+Abu-Lughod, Janet (1991). Before European Hegemony: the world system a.d. 1250–1350. Oxford University Press US. ISBN 0195067746.
+Anderson, James Maxwell (2000). The history of Portugal. Greenwood Publishing Group. ISBN 0313311064.
+Arciniegas, Germán (1978). Amerigo and the New World: The Life & Times of Amerigo Vespucci. Octagon Books. ISBN 0374902801.
+Armesto, Felipe Fernandez (2006). Pathfinders: A Global History of Exploration. W.W. Norton & Company. ISBN 0393062597.
+Arnold, David (2002). The Age of Discovery, 1400–1600, Lancaster pamphlets. Routledge. ISBN 0415279968.
+Boxer, Charles Ralph (1969). The Portuguese Seaborne Empire 1415–1825. Hutchinson. ISBN 0091310717.
+Boxer, Charles Ralph (1977). The Dutch seaborne empire, 1600–1800. Taylor & Francis. ISBN 0091310512.
+Braudel, Fernand (1979–1992 reissue). The Wheels of Commerce, vol. II of Civilization and Capitalism 15th–18th Century. University of California Press. ISBN 0520081153.
+Braudel, Fernand (1985–1992 reissue). The perspective of the world. University of California Press. ISBN 0520081161.
+Brook, Timothy (1998). The Confusions of Pleasure: Commerce and Culture in Ming China. University of California Press. ISBN 0520221540.
+Burns, William E. (2001). The scientific revolution: an encyclopedia. ABC-CLIO. ISBN 0874368758.
+Butel, Paul (1999). The Atlantic. Routledge. ISBN 0415106907.
+Cole, Juan Ricardo (2002). Sacred Space and Holy War. I.B.Tauris. ISBN 1860647367.
+Cook, Noble David (1998). Born to die: disease and New World conquest, 1492-1650. Cambridge University Press. ISBN 0521627303.
+Crosby, Alfred W., Jr (1972, 2003 reissue). The Columbian Exchange: Biological and Cultural Consequences of 1492;30th Anniversary Edition. Greenwood Publishing Group. ISBN 0275980928.
+Cromer, Alan (1995). Uncommon Sense: The Heretical Nature of Science. Oxford University Press US. ISBN 0195096363.
+Crow, John A. (1992). The Epic of Latin America. University of California Press. ISBN 0520077237.
+Daus, Ronald (1983). Die Erfindung des Kolonialismus. Wuppertal/Germany: Peter Hammer Verlag. ISBN 3872942026.
+Davenport, Frances Gardiner (1917). European Treaties Bearing on the History of the United States and Its Dependencies to 1648. Washington, D.C.: Carnegie Institute of Washington.
+De Lamar, Jensen (1992). Renaissance Europe: age of recovery and reconciliation. D.C. Heath. ISBN 0669200077.
+Diffie, Bailey (1977). Foundations of the Portuguese Empire, 1415–1580. University of Minnesota Press. ISBN 0816607826.
+Diffie, Bailey (1960). Prelude to empire: Portugal overseas before Henry the Navigator. University of Nebraska Press. ISBN 0803250495.
+Dymytryshyn, Basil, E. A. P. Crownhart-Vaughan, Thomas Vaughan (1985). Khabarov's biography (Russian) Russia's conquest of Siberia, 1558–1700: a documentary record. Western Imprints, The Press of the Oregon Historical Society. ISBN 0803250495.
+Donkin, R. A. (2003). Between east and west: the Moluccas and the traffic in spices up to the arrival of Europeans. Memoirs of the American Philosophical Society, DIANE Publishing. ISBN 0871692481.
+Dunn, Ross E. (2004). The adventures of Ibn Battuta, a Muslim traveler of the fourteenth century. University of California Press. ISBN 0520243854.
+Dunton, Larkin (1896). The World and Its People. Silver, Burdett.
+Ebrey, Patricia Buckley, Anne Walthall, James B. Palais (2006 /2008). East Asia: A Cultural, Social, and Political History. Houghton Mifflin. ISBN 0618133844.
+Fisher, Raymond H. (1981). The Voyage of Semen Dezhnev in 1648. The Hakluyt Society. ISBN 0904180077.
+Fiske, John (1892/2009). The Discovery of America: With Some Account of Ancient America and the Spanish Conquest. Houghton Mifflin. ISBN 1110320159.
+Forbes, Jack D. (1993). Africans and Native Americans: the language of race and the evolution of Red-Black peoples. University of Illinois Press. ISBN 025206321X.
+Gernet, Jacques (1962). Daily life in China, on the eve of the Mongol invasion, 1250–1276. Stanford University Press. ISBN 0804707200.
+Goodrich, Luther Carrington, Chao-ying Fang, Ming Biographical History Project Committee -Association for Asian Studies. (1976). Dictionary of Ming biography, 1368–1644. Columbia University Press. ISBN 023103833X.
+Gutierrez, Ramon A, and Richard J. Orsi (1998). Contested Eden: California before the Gold Rush. University of California Press. ISBN 052021273.
+Hacquebord, Louwrens (Sept 1995). "In Search of Het Behouden Huys: A Survey of the Remains of the House of Willem Barentsz on Novaya Zemlya". Arctic 48 (3): 250. Retrieved 2009-03-08.
+Hochstrasser, Julie (2007). Still life and trade in the Dutch golden age. Yale University Press. ISBN 0300100388.
+Howard, David and John Ayers (1978). China for the West: Chinese Porcelain and other Decorative Arts for Export, Illustrated from the Mottahedeh Collection. London and New York: Sotheby Parke Bernet.
+Lash, Donald F., Edwin J. Van Kley (1998). Asia in the Making of Europe, Volume III: A Century of Advance. Book 3: Southeast Asia. University of Chicago Press. ISBN 0226467686.
+Lawson, Edward W. (2007). The Discovery of Florida and Its Discoverer Juan Ponce de Leon. Kessinger Publishing. ISBN 1432561243.
+Lincoln, W. Bruce (1994, 2007 reissue). The Conquest of a Continent: Siberia and the Russians. Cornell University Press. ISBN 0801489229.
+Locke, John (1824). The works of John Locke: in nine volumes, Volume 9" The history of navigation. C. and J. Rivington.
+Mancall, Peter C. (1999). "The Age of Discovery" in The Challenge of American History, ed. Louis Masur. Johns Hopkins University Press. ISBN 0801862221.
+Medina (1918, 1974 reissue). El Piloto Juan Fernandez descubridor de las islas que ilevan su hombre, y Juan Jufre, armador de la expedicion que hizo en busca de otras en el mar del zur. Gabriela Mistral. ISBN 0313320438.(Spanish)
+Milton, Giles (1999). Nathaniel's Nutmeg. London: Sceptre. ISBN 9780340696767.
+Morison, Samuel Eliot (1942,2007 reissue). Admiral of the Ocean Sea: The Life of Christopher Columbus. Read Books. ISBN 1406750271.
+Mutch, T. D. (1942). The First Discovery of Australia. Sydney: Journal of the Royal Australian Historical Society.
+Newitt, Malyn D.D. (2005). A History of Portuguese Overseas Expansion, 1400–1668. Routledge. ISBN 0415239796.
+Nowell, Charles E. (1947). The Discovery of the Pacific: A Suggested Change of Approach. The Pacific Historical Review (Volume XVI, Number 1).
+Otfinoski, Steven (2004). Vasco Nuñez de Balboa: explorer of the Pacific. Marshall Cavendish. ISBN 0761416099.
+Pacey, Arnold (1991). Technology in world civilization: a thousand-year history. MIT Press. ISBN 0262660725.
+Paine, Lincoln P. (2000). Ships of discovery and exploration. Houghton Mifflin Harcourt,. ISBN 0395984157.
+Parry, J.H. (1981). The age of reconnaissance. University of California Press. ISBN 0520042352.
+Parry, J.H. (1981). The Discovery of the Sea. University of California Press. ISBN 0520042379.
+Penrose, Boies (1955). Travel and Discovery in the Renaissance:1420–1620. Harvard University Press. ISBN 0689701535.
+Pfoundes, C. (1882). Notes on the History of Eastern Adventure, Exploration, and Discovery, and Foreign Intercourse with Japan. Transactions of the Royal Historical Society (Volume X).
+Restall, Matthew (2004). Seven Myths of the Spanish Conquest. Oxford University Press. ISBN 0195176111.
+Russell-Wood, A. J. R. (1998). The Portuguese empire, 1415–1808: a world on the move. JHU Press. ISBN 0801859557.
+Spence, Jonathan D. (1999). The Chan's Great Continent: China in Western Minds. W.W. Norton & Co.. ISBN 039331989X.
+Spufford, Peter (1989). Money and its Use in Medieval Europe. Cambridge, UK: Cambridge University Press. ISBN 0521375908.
+Synge, J.B. (c. 1912-2007 reissue). A Book of Discovery. Yesterday's Classics. ISBN 1599151928.
+Tamura, Eileen H.; Linda K. Mention, Noren W. Lush, Francis K.C. Tsui, Warren Cohen (1997). China: Understanding Its Past. University of Hawaii Press. ISBN 0824819233.
+Tracy, James D. (1994). Handbook of European History 1400–1600: Late Middle Ages, Renaissance, and Reformation. Boston: Brill Academic Publishers. ISBN 9004097627.
+Tsai, Shih-Shan Henry (2002). Perpetual Happiness: The Ming Emperor Yongle. University of Washington Press. ISBN 9780295981246.
+Volker, T. (1971). Porcelain and the Dutch East India Company: as recorded in the Dagh-registers of Batavia Castle, those of Hirado and Deshima and other contemporary papers, 1602–1682. E. J. Brill,.
+Walton, Timothy R. (1994). The Spanish Treasure Fleets. Pineapple Press (FL). ISBN 15616404-2.
+Weddle, Robert S. (1985). Spanish Sea: the Gulf Of Mexico in North American Discovery, 1500–1685. Texas A&M University Press. ISBN 0890962111.
+Wilford, John Noble (1982). The Mapmakers, the Story of the Great Pioneers in Cartography from Antiquity to Space Age. Vintage Books, Random House. ISBN 0394753038.
+Zweig, Stefan (1938–2007 reissue). Conqueror of the Seas–The Story of Magellan. Read Books. ISBN 1406760064.
+[edit]Web sources
+"Amerigo Vespucci". Catholic Encyclopedia (New Advent). Retrieved 22 June 2010.
+"Ancient Silk Road Travelers". Silk Road Foundation. Retrieved 14 June 2010.
+"By the road of pathfinders". Sbaikal.ru. Retrieved 19 June 2010.(Russian)
+"Discovering Francis Drake's California Harbor". Drake Navigators Guild. Retrieved 17 June 2010.
+"Exploration–Jacques Cartier". The Historica Dominion Institute. Retrieved 9 November 2009.
+"Ferdinand Magellan". Catholic Encyclopedia (New Advent). Retrieved 14 January 2007.
+"Food Bacteria-Spice Survey Shows Why Some Cultures Like It Hot". ScienceDaily. March 5, 1998.
+Grunberg, Bernard (n°322, July–August 2007). "La folle aventure d'Hernan Cortés". L'Histoire (on subscription)(French) n°322: 22.
+"Historic and contemporary political and physical maps of California, including early exploration". University of San Francisco. Retrieved 14 January 2007.
+Mayne, Richard J.. "History of Europe". Britannica Online Encyclopedia. Retrieved 17 June 2010.
+"Issues and Trends in China's Demographic History". Columbia University. Retrieved 4 June 2010.
+Eccles, W.J.. "Jacques Cartier". Britannica Online Encyclopedia. Retrieved 17 June 2010.
+"Juan Rodriguez Cabrillo". San Diego Historical Society. Retrieved 17 June 2010.
+"Maize Streak Virus-Resistant Transgenic Maize: an African solution to an African Problem". www.scitizen.com. Retrieved 14 June 2010.
+(on subscription) "The Cabot Dilemma: John Cabot's 1497 Voyage & the Limits of Historiography". Derek Croxton, University of Virginia. Retrieved 15 June 2010.
+"The European Voyages of Exploration". The Applied History Research Group, University of Calgary. Retrieved 22 June 2010.
+"The Lost Fort of Columbus". Smithsonian Magazine. Retrieved 14 June 2010.
+"The Perfilyevs family". VSP.ru. Retrieved 19 June 2010.(Russian)
+"Super-Sized Cassava Plants May Help Fight Hunger In Africa". Researchnews, The Ohio State University. May 24, 2006.
+"Willem Barentsz and the Northeast passage". University Library of Tromsø - The Northern Lights Route. Retrieved 18 June 2010.
+[edit]Further reading
+
+Brook, Timothy (2007 reissue). Vermeer's Hat: The Seventeenth Century and the Dawn of the Global World. Bloomsbury Press. ISBN 1596914440.
+Cipolla, Carlo (1970). European Culture and Overseas Expansion. Pelican, London.
+DeVoto, Bernard (1952–1998 reissue). The Course of Empire. Houghton Mifflin Harcourt. ISBN 0395924987.
+Diamond, Jared (1998). Guns, germs and steel. Vintage. ISBN 0099302780.
+Hall, Robert L. (1991). Savoring Africa in the New World. In Seeds of Change: Five Hundred Years Since Columbus. Herman J. Viola and Carolyn Margolis, eds. Smithsonian Institution Press. ISBN 9781560980360.
+Love, Ronald S. (2006). Maritime Exploration in the Age of Discovery, 1415–1800. Greenwood Press. ISBN 0313320438.
+Rice, Eugene, F., Jr ((1970/1994)). The Foundations of Early Modern Europe: 1460–1559. W.W. Norton & Co.. ISBN 0393963047.
+Wright, John K. (March 1947). "Terrae Incognitae: The Place of the Imagination in Geography". Annals of the Association of American Geographers 37 (1): 1–15.
+[edit]External links
+
+	Wikimedia Commons has media related to: Age of Discovery
+The European Voyages of Exploration, The Applied History Research Group, University of Calgary
+[show]  Links to related articles
+Categories: Age of Discovery | Exploration | Colonization of the Americas | Historical eras | History of colonialism | History of Europe | History of geography | Maritime history | Spanish colonization of the Americas
+Log in / create account
+Article
+Discussion
+Read
+
+
+
+friendly or enemy aliens
+friends join
+enemies attack
+defeated enemies join but may turn against
+
+
+Terra Incognita
+    here be dragons
+    sea serpents
+    http://en.wikipedia.org/wiki/Here_be_dragons
+
+pirates
+
+ship under attack
+ship fires cannon from one of four sides
+
+geometry wars
+
+
+lost cities:  invest in expeditions
+
+big idea (cheap ass games):  invest in ideas
+patent wars:  race to invent
+
+
+shoot'em up on 2D field going in different directions, shooting in all directions.
+
+trip on a funny boat, going in multiple directions
+
+land on an island
+
+travel the world, making a map.
+meet hostiles
+
+starflight land on a planet.  collect specimens.  collect minerals.
+collect fuel.
+
+
+
+
+
+
+powerplant:  numbers to discover target.  race to discover.  or invent.
+
+
+
+http://en.wikipedia.org/wiki/Discovery_(fiction)
+
+
+
+
+JOURNAL
+
+
+12/16/2010 19:49:28
+
+inventing new genres
+going back to 1976
+little prior art to draw upon
+
+12/17/2010 22:03:00
+
+
+LD 19 Voting – Round 6 of 6
+FINAL ROUND
+
+
+	Aftermath
+	Being lost
+	Containment
+	Created but never destroyed
+	Demolition
+	Depth
+	Digging
+	Discovery
+	Don't die
+	Elements
+	Energy
+	Evolution
+	Game based on a year
+	Sacrifice
+	Seeds
+	Text Input Action Game
+	That was unexpected
+	The Unknown
+	Time travel
+	Vulnerability
+
+
+
+12/18/2010 07:11:19
+
+LD 19 Voting – Round 6 of 6
+FINAL ROUND
+
++1	0	-1
+1.	Discovery	+55	279	136	224
+2.	Containment	+31	264	141	233
+3.	Being lost	+25	269	130	244
+4.	Evolution	-10	260	109	270
+5.	Depth	-12	232	155	244
+6.	Digging	-16	256	117	272
+7.	Time travel	-49	250	95	299
+8.	Sacrifice	-54	221	136	275
+9.	Aftermath	-79	208	141	287
+10.	Seeds	-80	206	143	286
+11.	The Unknown	-80	206	138	286
+12.	Energy	-101	191	150	292
+13.	Demolition	-102	211	108	313
+14.	Created but never destroyed	-120	189	139	309
+15.	Elements	-121	184	142	305
+16.	That was unexpected	-128	194	119	322
+17.	Vulnerability	-129	176	151	305
+18.	Text Input Action Game	-143	214	68	357
+19.	Game based on a year	-147	195	101	342
+20.	Don't die	-161	181	118	342
+
+
+Ludum Dare 19 has begun!
+Posted by news
+December 17th, 2010 7:02 pm
+The theme: Discovery
+
+
+plan for ludum dare tomorrow morning:
+
+saturday:  ? when i play, how can i feel aware?
+note three variants
+screenplay three variants
+paper prototype three variants
+    task network?   (on cards?)
+prior art
+play
+win
+lose
+menu
+content
+
+time scale x2
+
+
+
+12/18/2010 08:34:22
+
+STARFLIGHT
+TERRA INCOGNITA
+ANTARTICA
+
+PRIOR ART
+
+Civilization I:  explore planet, get money, settle
+Starflight:  explore planet, get fuel, money, upgrade shield, laser
+Robot Wants Kitty:  explore map
+
+auto lockon to enemy.  or set direction of fire.
+
+big dragon or sea serpent.  shoot it.
+
+edge of view shows land or water becoming discovered and mapped
+
+gyruss travel to planets
+trade routes between planets
+vertical shoot'em up
+
+create outpost, city.
+this is save point.
+when expedition dies, reload from last city.
+
+limited fuel or food, depleting over time
+
+find more time or food
+
+limited shields, shot or attacked by enemies
+
+upgrade food container
+
+
+enemy city shoots at you.  it is a fortress.  
+
+destroy enemy ship.  pick up cargo from ship.
+
+scavenge parts.
+
+tile is discovered or not.
+
+view all tiles.  map complete.
+
+visit planet (single tile)
+
+colonize planet
+
+type of planet
+    gas giant:  mine fuel
+    terran:  mine people
+    mineral:  mine shield
+
+asteroid:  shoot, releases mineral
+nebula:  fly through to scoop fuel
+gas giant:  fly near to scoop fuel without sucking into gravity.  radial collision by distance to center.
+
+alien planet:  shoots at you.  spawns aliens.  
+
+planet is running out of fuel.  
+
+alien offscreen does not move
+
+shoot in direction of travel
+
+bomb
+
+alien technology
+
+wrap around space 
+
+faster sail
+
+edge of world:  sea falls off into nothing
+
+discworld:  world on turtle
+
+
+viking voyage:  serpent, monster
+
+greek voyage:  kraken
+
+atlantis:  fabled island.  in middle of ocean.  
+
+moving clouds:  collect water
+
+edge of world:  learn to fly to explore further.
+
+asgard:  land of gods
+
+valhalla:  hall of heroes.
+
+valkarie, thor, odin.  
+
+edge of space:  too far to travel from planet.
+
+timer:  year.
+
+
+
+
+12/18/2010 10:19:56
+
+PLANETEER
+
+REMCO, 20s game development lecturer sits.
+
+                TITLE
+        PLANETEER
+
+                MIDTITLE
+        DISCOVER NEW PLANETS
+        BEFORE FUEL RUNS OUT!
+        
+                SUBTITLE
+        CLICK TO START
+
+Remco moves mouse.  White triangle moves.  Remco clicks.
+
+                MIDTITLE
+        ARROW KEYS:  MOVE
+        SPACE, Z, Y:  SHOOT
+
+BLUE SHIP appears beside text.
+
+                SUBTITLE
+        TO START:  PRESS UP
+
+Remco presses up.
+
+EXT. EARTH, MILKY WAY - NIGHT
+
+Gray stars in background.  Blue green circle.  With gray square on top.  Remco hears bewweeep.
+
+BLUE SHIP appears on top, nose pointing up.
+
+Remco presses left, blue ship moves left.  Remco presses right.  blue ship moves right.  
+
+Remco presses space.  Flashing cyan bullet shoots from right side of blue ship heading right.  
+
+Edges are black.  Remco presses up.  background stars reveal.  background stars scroll.
+
+At top right, BLUE CIRCLE with green areas.  gray building with beacon.
+
+                BACKGROUND TEXT
+        DO NOT SHOOT PLANET
+        FIND A NEW PLANET
+
+Remco presses up.
+
+Remco sees field of brown rocks approaching.
+
+                BACKGROUND TEXT
+        SHOOT ASTEROIDS
+        
+Remco sees blue circle.  
+
+                BACKGROUND TEXT
+        DO NOT SHOOT PLANET
+        TO BUILD COLONY, TOUCH PLANET
+
+Gray building appears with beacon.  Cha-ching.
+
+FUEL 100.  Fuel counts down, once per second.
+
+Remco presses up.  
+
+BEETLE appears.  Beetle shoots red flashing dot at blue ship.  
+
+Beetle 
+
+Remco touches planet.  GRAY BUILDING on top of planet.  FUEL flickers 100.  Woooup.
+
+
+                BACKGROUND TEXT
+        PLANET REFUELS.
+
+
+
+
+TAKE 2
+
+
+EXT. EARTH, MILKY WAY - NIGHT
+
+Gray stars in background.  Blue green circle.  With gray square on top.  Remco hears bewweeep.
+
+BLUE SHIP appears on top, nose pointing up.
+
+BEETLE enters from right.  Beetle shoots red flashing dot to left.  Dot hits circle.  Blue green circle flickers.  Remco hears noise.
+
+                SUBTITLE
+        ALIENS ARE ATTACKING!
+
+Remco presses left, blue ship moves left.  Remco presses right.  blue ship moves right.  
+
+Remco presses space.  Flashing cyan bullet shoots from right side of blue ship heading right.  Remco shoots beetle.  it explodes.  
+
+                SUBTITLE
+
+
+
+12/18/2010 11:21:47
+
+                TITLE
+        HERE BE DRAGONS
+                SUBTITLE
+        EXPLORE THE WORLD
+                SUBTITLE
+        TO START, CLICK ANYWHERE
+Remco clicks
+                SUBTITLE
+        ARROW KEYS:  MOVE
+        SPACE OR X:  SHOOT
+        TO START, PRESS UP
+        
+EXT.  OCEAN.
+
+GRAY CASTLE.  Ship appears and flickers.  Ding.
+
+                SUBTITLE
+        DO NOT SHOOT CITY
+        FIND A NEW CITY
+        
+Remco presses arrow keys.  Ship moves.
+
+Remco sees yellow clearing in green land in water.  
+
+Black edges fade away.  Revealing more.
+
+Remco presses space.  Boosh.  Cannon ball emerges and hits clearing.  Flashes fire.  Noise.
+
+                SUBTITLE
+        TO BUILD CITY, LAND AT BEACH
+
+FUEL rolls up to 100.  Ding.
+
+Ship touches cannon.  
+
+                SUBTITLE
+        TWO CANNONS!
+
+Rock
+Shark
+Octopus
+Dragon
+
+icebreaker ship
+
+trophies:
+spice
+silver
+gold
+emerald
+
+convert to gold
+trade between towns
+time
+
+minimap:
+
+weapons to discover:
+cannon
+
+sail
+
+15x15
+480/16 = 30x30
+
+subtract only on move
+
+stage 2:  enemies appear next to cities.
+after leaving for a while, enemies reappear where before.
+
+
+12/18/2010 15:10:51
+
+create fog
+    for all
+        setTileIndex 2
+
+update fog
+    for all near ship
+        set tile index 0
+    for all at border near ship
+        set tile index 1
+        
+try at tile index 1
+
+
+12/18/2010 16:28:10
+sign as sprite
+    visited, unvisited
+    collide
+sign as tile
+    check under player
+
+which sign is overlapped?
+which message is shown?
+
+in DAME, write text and place.
+create:  hide text.  place sign image at text position.
+update:  if position by tile of sign, show text.  or show text in subtitle of message.
+
+every message has unique tile.
+place tile.
+when get that tile, show that message.
+log message.  show log.
+
+
+cannon, rock
+
+sprite:  export sprites as 25x25 sprite:  in dame, load sprite image, sprite class, paint sprite.  unique class for each.  for each overlap player, pickup.
+tile:  export tiles to png.  paint tiles on pickup layer. look up tile numbers.  pickup.  lockdown tile order, to keep synchronized.  (robot wants kitty).  lookup index of cannon.
+
+12/18/2010 19:38:03
+
+ruin
+    kill
+    place city
+city animation
+    ruin
+    city
+
+
+http://www.ludumdare.com/compo/2010/12/18/lunch-time-4/
+ship setting sail also...
+
+
+http://darkhogg.es/ld19/
+
+open treasure chest... oh, what is inside?
+ingot, rupee, pearl, coin
+
+dig into wall, and open another area.
+
+
+12/19/2010 09:44:43
+
+remco sees pirate.  remco shoots.
+every 3 seconds (onscreen) pirate shoots one time.  pirate pauses just before it shoots.
+pirate shoots in quadrant of player.
+tower:  tower shoots.
+
+
+pirate creates enemy bullet to see.  enemy bullet is red.  enemy bullet is added to enemy_bullets.  enemy bullets are bullets that collide with land.  enemy_bullets collide with player.  enemy bullet destroys rocks or crags too.
+
+
+gunner faces player?
+
+
+12/19/2010 14:51:48
+if shoot up and down, with enemies traveling left/right and shooting left/right, it is easy.
+
+instead, only shoot left/right.
+
+
+
+12/19/2010 23:10:50
+
+
+
+			// Frame rate drops from 40 fps to 20 fps!
+			// player.hud.mc.map_txt.text = Level.percentTilesUnderIndex(level_0.layerFog, 1).toString();
+			// collide
+			// 40 fps without starts here
+/*			level.hitTilemaps.collide(player);
+			level.hitTilemaps.collide(player.bullets);
+			level.hitTilemaps.collide(this.enemy_bullets);
+			level.hitTilemaps.collide(this.fish);
+			level.hitTilemaps.collide(this.enemies);
+*/
+			// var collideProfileId:int = FlxU.startProfile();
+			level.hitTilemaps.collide(mobiles);
+			// FlxU.endProfile(collideProfileId, "level.collide", false);
+			// 30 fps without starts here
+/*			FlxU.collide(player, this.rocks);
+			FlxU.collide(this.enemies, this.rocks);
+			FlxU.collide(this.enemies, this.hazards);
+*/			// 20 fps without starts here
+			FlxU.overlap(player.bullets, this.enemies, Bullet.shootEnemy);
+			//FlxU.overlap(player.bullets, this.rocks);
+			//FlxU.overlap(player.bullets, this.hazards);
+			//FlxU.overlap(player.bullets, this.fish);
+/*			// 18 fps without starts here
+			FlxU.overlap(this.enemy_bullets, this.rocks);
+			FlxU.overlap(this.enemy_bullets, this.player);
+			FlxU.overlap(this.enemy_bullets, this.hazards);
+			FlxU.overlap(this.enemy_bullets, this.fish);
+			FlxU.overlap(player, this.enemies, Player.overlapEnemy);
+			FlxU.overlap(player, this.pickups, Player.pickup);
+			FlxU.overlap(this.fish, player, Fish.eaten); //reverse syntax?  or better for expanding, ala The Sims?
+			FlxU.overlap(this.cities, player, City.save);
+*/			// FlxU.overlap(this.bullets, level.hitTilemaps, Bullet.overlapBlock);
+			// 40 fps without ends here
+
+
+
+12/20/2010 00:05:12
+
+
+cannot see whole screen.
+attack from off screen.
+scroll into something offscreen.
+no fair!
+did not see it.
+did not see bullet coming.
+could not see out of fog.
+
+hard!
+
+reduce enemy bullet speed
+reduce maximum dragon speed
+reduce dragon health
+reduce hydra shoot frequency
+
+tedious to cover whole world
+
+fire both ways
+
+gunner moves faster than bullet
+
+http://www.ludumdare.com/compo/ludum-dare-19/?action=preview&uid=3040
+
+
+sndSave not recognized property
+static function looking for instance variable
+12/20/2010 03:04:09
+
+should have done sound an hour before
+
+12/20/2010 03:27:25
+
+world map is too large, i haven't even visited all of it.
+engine is rock solid frame rate
+
+actually, i don't think that gold is added 
+for making map, unless visiting new city?
+
+restricting to left-right shooting and facing simplifies drama
+plan dramatic encounters from left and right
+and do not worry about player shooting from top, so can constrain difficulty more precisely.
+
+unfamiliar with programming bosses or shoot'em patterns
+especially shoot'em ups with side-scrolling environments
+i
+r-type
+gradius
+sid meier's pirates
+
+Sid Meier's Pirates! '87 PC DOS-Box Gameplay
+http://www.youtube.com/watch?v=s2RigX8BVlc
+6:16
+sail combat
+
+
+PC Engine R-TYPE I
+http://www.youtube.com/watch?v=con40be5nTM
+
+
+12/20/2010 21:41:19
+
+    12/19 ? when i discover a new world monster, how can i feel aware?
+    sail to arctic and shoot dragon, submit here be monsters!
+    -3 nap, fatigued
+        7 boil rolled oats, warm garlic clove.  eat.  after garlic, feel nauseous.
+        8 coin.  deposit cargo at port.
+        9 why cannot i see coin?  not in world.  pirate spawns coin.  
+        10 red pirate shoots red bullet at current facing.  aware.
+        11 eat boerenkool stammpot and zuurkool
+        12 why not respawn?  if dead, not update?  respawn after 20 seconds.
+        13
+        14 dragon rushes left/right.  ship shoots left or right.
+        15 nap.
+        16 hydra shoots in four directions.
+        17 eat boiled lentils and steamed kale.  hearty.  flash cs4:  layout hud.  
+        18 HUD movieclip.  gotcha, need 2 frames.  set text to integer pixel.
+        19 when i expect map increase, how can i feel aware?
+            map increases at city.
+        20 sketch ice and land.  plop a few dragons, hydra, pirates.
+        21 populate dragons, hydra, fish
+        22 frame rate 16 fps.  crag no collision.  ship and fish flipped.
+        23 remove rocks/crags.  forgive fish collision.
+        0 frame rate at 30-40 in release and IE and chrome.  fatigued.
+        1 tweak title, wrap east to west
+        2 sfxr sounds, do not add them.  upload, submit.
+        3 look at posts and games, bed.  fatigued.
+        
+12/12-12/18 ? when i see images for volcano jumper, drive, how can i feel content?
+
+Ludum Dare 19 :: December 17th-20th, 2010 :: Theme: ??? (suggest a theme)
+starts at local time (amsterdam) saturday 18 dec at 03:00
+ends monday 20 december at 03:00 (amsterdam)
+
+    12/18
+    found city, eat fish, hit crag.
+    -2 nap, fatigued, foggy.
+        0-6 last night feast and drink wine.  sleep lousy.
+        7 microwave and eat boerenkool stamppot.  note shoot'em up and terra incognita.
+        8 ? when i read screenplay and expect to discover, how can i feel aware?
+            notions:  terra incognita, planeteer, antartica.
+        9 sleepy.  nap.
+        10 ? when i read screenplay and expect to discover, how can i feel confused?
+            planeteer screenplay:  touch planet.  refuel.
+        11 here be dragons screenplay:  touch city.  refuel.
+        12 eat zuurkool, makreel
+        13 flash CS4:  25x25 crude ship.  load empty game.
+        14 white/brown box bumps into green square and goes on yellow.
+        15 reveal tiles in view.
+        16 how shall i place cannon upgrade:  tile or sprite?
+        17 boil beans and grain.  see cannon, overlap and it disappears.  
+        18 message of cannon.  not firing yet.
+        19 ship shoots rock and escapes.
+        20 message you founded a city!  wreck on crags and respawn at city.
+            run out of food.  respawn at city
+        21 fish, get food.  shower, bed
+
+
+12/20/2010 17:44:22
+
+postmortem
+
+What went right
+
+1. Add a little, play a little.
+As shown in the journal screenshot at the end of day one, I had a ship sailing by day one, and the islands where the player starts were the first things I made.  I built each feature pretty much in order that the player plays them:  reveal fog, sail around land, get a cannon, shoot a pirate, get gold, eat fish, save at a city, and so on.  I was able to increment and adjust my development course.  Oftentimes I make games more difficult than a player can handle, so I tested the difficulty at x2 speed and x4 speed.  When in doubt, I erred on the generous side (in my opinion).
+
+2. Familiar with some low-tech games of discovery.
+I started with inspiration from my teenage play of Civilization I and Starflight.  I knew that was way too much to do in two days, and I wanted some action, so I planned to mix-in a shoot'em up.  I liked Robot Wants Kitty, and remember reviewers saying that the save points were critical.  It was a fairly natural fit to make the ports into save points.  
+
+I learned a few lessons about side-scrolling shooters (I haven't made one before).  At first I had shooting in four directions, but that was too hard to make every encounter challenging, and I was annoyed to only shoot in the direction I last moved.  When I reduced shooting to horizontal, I was still annoyed.  By shooting both left and right automatically, the game felt a lot more relaxing and like a shoot'em up (in which you are always shooting in the basic direction that you want to be).  By shooting only to the sides, I only needed enemies (like te sea dragon) to attack on the sides.  Also the very limited graphics (without any rotation) are more plausible when considering most motion is only from left to right.
+
+About seven hours before the deadline, the frame dropped to 12 FPS.  I gutted the collisions, and in doing so made the game more fun.  There had been rocks, crags to crash against, and shooting a herring or a monster getting to a herring would kill it.  That interaction interested me, but it was also more difficult to watch while playing.  
+
+3. Tools, techniques, and engine handle the stress.
+Flixel handled the 256x128 tile map.  As did DAME, the level editor.  Also, I was able to reuse the DAME layer for the fog that covers the map.  I hadn't tried such a large map before, so was relieved that it worked and the frame rate is fast and stable, which is essential for shoot'em up action.  I had practiced using each tool and technique in previous games, so I could focus on the design.
+
+What went wrong
+
+1. World map is too large.
+The world map is 256x128 tiles.  That is nearly 100 screens.  Until 9 hours before the deadline, I had only the center island.  In some miraculous feat of about three hours, I made and populated about 80 screens of the world.  Thankfully, there are not impossible regions or what I would consider too difficult encounters, and still much of the environment and its encounters have a dramatic structure.  Yet it wasn't until the day after the deadline that i traveled to everywhere in my world, i even visited all of it.  Next time, I tell myself I'll make less and polish that.
+
+2. Distracted by more ideas than I can make.
+I told myself I would start programming and play something within the first five hours.  But what?  I waffled back and forth between setting the discovery in the old world (as in Civilization I) or a galaxy (as in StarFlight).  I drafted two segments of screenplays for an hour, before finally convincing myself that an old world sailing shooter would be a more consistent setting for the features I had in mind:  save points like Robot Wants Kitty, revealing tiles like Civilization I, limited fuel like vehicles in Advance Wars, and side-shooting like R-Type I (although more whimsical as in Trip on a Funny Boat).  I had so many ideas though:  galaxy or old world sea, food container upgrade, animated bosses, treasure chests, and more.  But, how do I program boss behavior in two hours?  The dragon's large size, rush in a narrow inlet, hit points was the simplest and fastest I could make.  
+
+3. Asset pipeline overkill.
+I like the visual interface and convenience of DAME a lot.  But somehow it flipped half of the sprites (without that option being checked) and made a couple of other strange changes, such that I don't think I can maintain the map without replacing many sprites.  I didn't really need that much power.  I also exported from Flash CS4 a SWF for city, player, HUD.  I had a text HUD in Flixel.  I like Flixel a lot, but when I was in high school I also liked laying out my text for a 'zine on a Macintosh, because it had a visual WYSIWYG page design.  So tweaking font parameters in FlashDevelop rubs me the wrong way.  I replaced the text with a SWF for the HUD.  I'm proud it worked, but it cost me an extra hour.  I made the graphics in Flash CS4, and I knew vectors are not preserved in bitmap, but the vector shark and hydra scaled down to be imperceptible on a 25x25 tile, same with dragon's ruby eye.  All this attention to my graphics pipeline kept my procrastinating sound.  I knew SFXR and like it.  I tried for last minute sound, really last minute.  So I wound up with no sound.
+
+Personal issues
+In professional Gamasutra post-mortems, I rarely recall mention of personal issues, but for me they are relevant.  I could have made more if I had kept a consistent diet and slept well Friday night.  A couple of naps and grogginess cost me a couple of hours.  And I could have enjoyed Monday after if I had not stayed up until the last minute (3 a.m. here in Amsterdam) Sunday night.  
+
+Altogether, I'm proud of the voyage in the tiny world of Here Be Monsters!  I have enough notes to start an elaborate production, if other people really like this sort of game.  
+
+
+----
+
+edited for brevity:
+
+
+What went right
+
+1. Play a little, make a little.
+I built most features in order the the player needs them:  reveal fog, sail around land, get a cannon, shoot a pirate, get gold, eat fish, save at a city, and so on.  I would play and say, for example:  hm, that pirate needs gold.  
+
+2. Familiar with some simple games of discovery.
+I started with inspiration from my teenage play of Civilization I and Starflight.  I could already imagine sailing.  save points like Robot Wants Kitty, revealing tiles like Civilization I, limited fuel like vehicles in Advance Wars, and side-shooting like R-Type I (although more whimsical as in Trip on a Funny Boat).  
+
+At first I had shooting forward, but by shooting both left and right automatically, shooting felt relaxing.  By shooting only to the sides, I only needed enemies (like te sea dragon) to attack on the sides.  Also the unrotated ships are more plausible when considering most motion is only from left to right.
+
+There had been rocks, crags to crash against, and shooting a herring or a monster getting to a herring would kill it.  About seven hours before the deadline, the frame dropped to 12 FPS.  I gutted the collisions and crags, and in giving the computer less to worry about, I also gave the player less to worry about.
+
+3. Tools and engine handle the stress.
+Flixel handled the 256x128 tile map.  As did DAME, the level editor.  The frame rate is fast and stable, which is essential for shoot'em up action.  I had practiced using each tool and technique in previous two-day games, so I could focus on the design.
+
+What went wrong
+
+1. World map is too large.
+The world map is 256x128 tiles.  That is nearly 100 screens.  Until 9 hours before the deadline, I only had a few center islands.  In some miraculous feat of about three hours, I made the remaining 80 or so screens of the world.  Next time I would rather iterate on a world about 128x64 (about the size of Robot Wants Kitty).
+
+2. Distracted by more ideas than I can make.
+I told myself I would start programming and play something within the first five hours.  But what?  I drafted two segments of screenplays for two hours, before finally convincing myself that an old world sailing shooter would be a more consistent setting for the features I had in mind.  I had so many ideas though:  galaxy or old world sea, food container upgrade, animated bosses, treasure chests, and more.  But, how do I program boss behavior in two hours?  The dragon's large size, rush in a narrow inlet, hit points was the simplest I could make.  
+
+3. Graphics pipeline overkill.
+I like the visual interface and convenience of DAME a lot.  But somehow it flipped half of the sprites (without that option being checked) and made a couple of other strange changes, such that I don't think I can maintain the map without replacing many sprites.  I didn't need that, and could have loaded monsters from tiles instead of sprites.  I also exported from Flash CS4 a SWF for city, player, HUD.  I had a hard to read text HUD in Flixel that I replaced with a CS4 SWF.  It works well, but setup cost me an extra hour.  I drew the graphics in Flash CS4, but the vector shark and hydra scaled down to be imperceptible on a 25x25 tile, same with dragon's ruby eye.  All this attention to my graphics pipeline kept my procrastinating sound.  I knew SFXR and like it.  I tried for last minute sound, really last minute.  So I wound up with no sound.
+
+Healthy sleep and diet
+Finally, I could have made more if I had kept a consistent diet and slept well Friday night.  A couple of naps and grogginess cost me a couple of hours.  And I could have enjoyed Monday after if I had not stayed up until the last minute (3 a.m. here in Amsterdam) Sunday night.  
+
+Altogether, I'm proud of the voyage in the tiny world of Here Be Monsters!  It's worth your trip.  
+
+
+-----
+
+best feelings
+    gray things shoot four ways from different directions.  shoot and get red ruby.  alert and content.
+    far east, red pirates shoot, dodge and shoot them.  alert and content.
+    75% map impresses the queen
+
+worst feelings
+    in ice, run into a dragon, respawn at city.  return, run into red bullet.  return.  run into dragon or bullet again.  respawn.  return.  jaw tenses.  grit teeth?
+    99% of map complete.  where is the last bit?  sail and sail and sail.  did i get it all yet?  go to city.  not yet.  go on.
+    sail.  is map updating?  am i making progress on map?
+    run out of food.  did not notice.
+    sometimes hydra does not shoot all four ways.  disappointed.
+    in ice, see dragon and hydra.  bored.  same old same old.
+
+
+
+let's play
+r-type i
+civilization i
+
+how do i loosely couple collision and animation?
+for example, swinging tentacle in euphonics
+snake that follows a trail. collision only on each segment of snake (or bone of snake).  
+
+idea:  flash CS4 collision box.  this has collision
+spawn collision box
+when animation occurs, animate collision box also (offset)
+bake collision box without rotation
+draw collision box and animate separately
+
+
+in a sidescroller, like r-type II, the sequence of onslaught is paced.  it comes at a given time.  in an exploration game, like diablo II, the player chooses when to trigger an encounter.
+
+in diablo II or nethack or rogue, there also doors to hide behind, so that the fog is not lifted for the room until the door is opened.
+
+platformer constrains movement by gravity.  cannot leap so high and then fall back down.  this limits time of being off ground and in zone of attack.
+
+

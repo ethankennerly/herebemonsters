@@ -1,8 +1,12 @@
+*.as~
+*.bak
+*.swp
+*.zip
 # Build and Release Folders
 bin/
 bin-debug/
 bin-release/
-
+data_src/
 # Other files and folders
 .settings/
 
