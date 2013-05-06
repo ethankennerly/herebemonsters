@@ -10,7 +10,7 @@ package
 	public class PlayState extends FlxState
 
 	{
-
+        public static var edgeOffset:int = 4;
 		public var player:Player;
 		public var bullets:FlxGroup;
 		public var enemies:FlxGroup;
@@ -43,9 +43,10 @@ package
 			this.add(this.pickups);
 			FlxG.levels = [Level_0];
 			level = Level.load(this._onLoadObject);
-			Level.setCollideIndex(level, 2);
+			Level.setCollideIndex(level, edgeOffset + 15);
 			level_0 = level as Level_0;
 			Level.setTilemap(level_0.layerFog, 2);
+            level_0.layerMap3.loadMap(Tilemap.autoTile(new level_0.CSV_Map3, 0, 2, edgeOffset), level_0.Img_Map3);
 
 			// collision group
 			this.mobiles = new FlxGroup();

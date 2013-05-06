@@ -8,6 +8,7 @@ package
 	{
 		public function discovery()
 		{
+            new TestTilemap();
 			super(550,400,MenuState,1);
 		}
 	}

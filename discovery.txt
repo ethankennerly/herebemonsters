@@ -1820,3 +1820,14 @@ in diablo II or nethack or rogue, there also doors to hide behind, so that the f
 platformer constrains movement by gravity.  cannot leap so high and then fall back down.  this limits time of being off ground and in zone of attack.
 
 
+Sun 05/05/2013 
+15:01
+
+Autotiling.
+
+tile by height: 32 tiles
+http://www.xnaresources.com/default.asp?page=Tutorial:TileEngineSeries:6
+Four corner auto tiling: 16 tiles
+http://www.codeproject.com/Articles/106884/Implementing-Auto-tiling-Functionality-in-a-Tile-M
+
+
