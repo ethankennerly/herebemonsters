@@ -6,7 +6,7 @@ package
 	public class BaseLevel
 	{
 		// The masterLayer contains every single object in this group making it easy to empty the level.
-		public var masterLayer:FlxLayer = new FlxLayer;
+		public var masterLayer:FlxGroup = new FlxGroup;
 
 		// This group contains all the tilemaps specified to use collisions.
 		public var hitTilemaps:FlxGroup = new FlxGroup;
@@ -24,12 +24,9 @@ package
 		// Expects callback function to be callback(newobj:Object,layer:FlxGroup,level:BaseLevel,properties:Array)
 		public function createObjects(onAddCallback:Function = null):void { }
 
-		public function addTilemap( mapClass:Class, imageClass:Class, x:Number, y:Number, tileWidth:uint, tileHeight:uint, scrollX:Number, scrollY:Number, hits:Boolean, collideIdx:uint, drawIdx:uint, properties:Array, onAddCallback:Function = null, TilemapClass:Class=null ):FlxTilemap
+		public function addTilemap( mapClass:Class, imageClass:Class, x:Number, y:Number, tileWidth:uint, tileHeight:uint, scrollX:Number, scrollY:Number, hits:Boolean, collideIdx:uint, drawIdx:uint, properties:Array, onAddCallback:Function = null ):FlxTilemap
 		{
-            if (null == TilemapClass) {
-                TilemapClass = FlxTilemap;
-            }
-			var map:FlxTilemap = new TilemapClass;
+			var map:FlxTilemap = new FlxTilemap;
 			map.collideIndex = collideIdx;
 			map.drawIndex = drawIdx;
 			map.loadMap( new mapClass, imageClass, tileWidth, tileHeight );

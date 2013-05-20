@@ -12,7 +12,7 @@ package
 		[Embed(source="../data/fog_tiles.png")] public var Img_Fog:Class;
 
 		//Tilemaps
-		public var layerMap3:FlxTilemapLayer;
+		public var layerMap3:FlxTilemap;
 		public var layerFog:FlxTilemap;
 
 		//Sprites
@@ -28,18 +28,16 @@ package
 			var properties:Array = [];
 
 			generateProperties( null );
-			layerMap3 = FlxTilemapLayer( addTilemap( CSV_Map3, Img_Map3, 0.000, 0.000, 25, 25, 1.000, 1.000, true, 1, 1, properties, onAddCallback, FlxTilemapLayer ));
+			layerMap3 = addTilemap( CSV_Map3, Img_Map3, 0.000, 0.000, 25, 25, 1.000, 1.000, true, 1, 1, properties, onAddCallback );
 			generateProperties( null );
 			layerFog = addTilemap( CSV_Fog, Img_Fog, 0.000, 0.000, 25, 25, 1.000, 1.000, false, 1, 1, properties, onAddCallback );
 
 			//Add layers to the master group in correct order.
 			masterLayer.add(layerMap3);
-			masterLayer.add(SpriteGroup, true);
-            layerMap3.spriteGroups.push(SpriteGroup);
+			masterLayer.add(SpriteGroup);
 			SpriteGroup.scrollFactor.x = 1.000000;
 			SpriteGroup.scrollFactor.y = 1.000000;
-			masterLayer.add(PlayerGroup, true);
-            layerMap3.spriteGroups.push(PlayerGroup);
+			masterLayer.add(PlayerGroup);
 			PlayerGroup.scrollFactor.x = 1.000000;
 			PlayerGroup.scrollFactor.y = 1.000000;
 			masterLayer.add(layerFog);

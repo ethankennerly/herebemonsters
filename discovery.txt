@@ -1831,32 +1831,3 @@ Four corner auto tiling: 16 tiles
 http://www.codeproject.com/Articles/106884/Implementing-Auto-tiling-Functionality-in-a-Tile-M
 
 
-Sun 05/19/2013 
-11:41
-
-2.5D: If tile overlaps sprite, render tile over sprite.
-
-Copy pixels in row order:
-
-	ab
-	cd
-
-a: tile at row 0, b: sprite at row 0
-c: tile at row 1, d: sprite at row 1
-
-FlxTilemap.renderTilemapAndSprites
-
-copy sprites to be on same layer.
-sort sprites by bottom, descending.
-for each row of tiles:
-	pop sprite; if bottom of sprite greater than bottom of tile, push sprite.
-	otherwise: render sprite.
-	render row of tiles.
-
-MasterLayer is FlxLayer. FlxLayer extends FlxGroup.
-
-add land.  merge player.  merge sprites.
-
-LayerMap3 is FlxTilemapAndSprites.  Override renderTilemap.  Assign sprites and player.  
-
-
