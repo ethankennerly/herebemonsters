@@ -46,7 +46,7 @@ package
                 for (r = 0; r < edges.length; r++) {
                     edges2.push([]);
                     for (c = 0; c < edges[r].length; c++) {
-                        var self:int = edges[r][c];
+                        self = edges[r][c];
                         if (self == edgedLandIndex 
                                 && isSurrounded(edges, r, c, edgedLandIndex)) {
                             index = surroundedIndex;
@@ -59,7 +59,7 @@ package
                 }
                 for (r = 0; r < edges.length; r++) {
                     for (c = 0; c < edges[r].length; c++) {
-                        var self:int = edges2[r][c];
+                        self = edges2[r][c];
                         if (self == edgedLandIndex) {
                             index = interiorIndex + getNeighborBitmask(edges2, r, c, surroundedIndex);
                         }

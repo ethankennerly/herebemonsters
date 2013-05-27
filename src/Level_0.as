@@ -62,7 +62,8 @@ package
 		public function addSpritesForLayerSprite(onAddCallback:Function = null):void
 		{
 			addSpriteToLayer(null, Gunner, SpriteGroup , 3325.000, 1850.000, 0.000, false, 1.000, 1.000, generateProperties( null ), onAddCallback );//"Gunner"
-			addSpriteToLayer(null, Cannon, SpriteGroup , 3150.000, 1150.000, 0.000, false, 1.000, 1.000, generateProperties( null ), onAddCallback );//"Cannon"
+			// addSpriteToLayer(null, Cannon, SpriteGroup , 3150.000, 1150.000, 0.000, false, 1.000, 1.000, generateProperties( null ), onAddCallback );//"Cannon"
+			addSpriteToLayer(null, Cannon, SpriteGroup , 3202.500, 1322.500, 0.000, false, 1, 1, generateProperties( null ), onAddCallback );//"Cannon"
 //			addSpriteToLayer(null, Rock, SpriteGroup , 3050.000, 1175.000, 0.000, false, 1.000, 1.000, generateProperties( null ), onAddCallback );//"Rock"
 //			addSpriteToLayer(null, Rock, SpriteGroup , 3050.000, 1200.000, 0.000, false, 1.000, 1.000, generateProperties( null ), onAddCallback );//"Rock"
 //			addSpriteToLayer(null, Rock, SpriteGroup , 3075.000, 1250.000, 0.000, false, 1.000, 1.000, generateProperties( null ), onAddCallback );//"Rock"
