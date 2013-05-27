@@ -10,18 +10,21 @@ package
          * http://www.codeproject.com/Articles/106884/Implementing-Auto-tiling-Functionality-in-a-Tile-M
          * Example: @see TestTilemap.as
          */
-        public static function autoTile(csv:String, waterIndex:int, landIndex:int, landEdgeIndex:int):String
+        public static function autoTile(csv:String, waterIndex:int, landIndex:int, landEdgeIndex:int, inner:Boolean=false):String
         {
             var rows:Array = csv.replace("\r", "\n").replace("\n\n", "\n").split("\n");
             for (var r:int = 0; r < rows.length; r++) {
                 rows[r] = rows[r].split(",");
+                for (var c:int = 0; c < rows[r].length; c++) {
+                    rows[r][c] = parseInt(rows[r][c]);
+                }
             }
             var edges:Array = [];
             var index:int;
             for (r = 0; r < rows.length; r++) {
                 var cs:Array = [];
-                for (var c:int = 0; c < rows[r].length; c++) {
-                    var self:int = parseInt(rows[r][c]);
+                for (c = 0; c < rows[r].length; c++) {
+                    var self:int = rows[r][c];
                     if (self == waterIndex || self == landIndex) {
                         index = getNeighborBitmask(rows, r, c, landIndex);
                         cs.push(index + landEdgeIndex);
