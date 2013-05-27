@@ -5,8 +5,9 @@ package
         public function TestTilemap():void
         {
             testAutoTile();
-            testAutoTileNoInner();
-            // TODO: testAutoTileInner();
+            testAutoTileNoInterior();
+            testIsSurrounded();
+            testAutoTileInterior();
         }
 
         /**
@@ -26,7 +27,18 @@ package
             assert(expected, got);
         }
 
-        public function testAutoTileNoInner():void
+        public function testIsSurrounded():void
+        {
+            assert(true, Tilemap.isSurrounded([[2,2,2],[2,2,2],[2,2,2]], 0, 1, 2));
+            assert(false, Tilemap.isSurrounded([[2,2,2],[1,2,2],[2,2,2]], 0, 1, 2));
+            assert(true, Tilemap.isSurrounded([[3,3,3],[3,3,3],[3,3,3]], 1, 1, 3));
+            assert(false, Tilemap.isSurrounded([[3,3,3],[3,3,3],[3,3,2]], 1, 1, 3));
+            assert(false, Tilemap.isSurrounded([[3,3,3],[3,1,3],[3,3,3]], 1, 1, 3));
+            assert(true, Tilemap.isSurrounded([[4,4,4],[4,4,4],[4,4,4]], 2, 2, 4));
+            assert(false, Tilemap.isSurrounded([[4,4,4],[4,1,4],[4,4,4]], 2, 2, 4));
+        }
+
+        public function testAutoTileNoInterior():void
         {
             var expected:String =             "19,19,19,17,8" 
                                           + "\n19,19,19,19,17"
@@ -37,27 +49,27 @@ package
                                           + "\n2,2,2,2,0"
                                           + "\n2,2,2,2,2"
                                           + "\n0,2,2,2,0"
-                                          + "\n0,0,2,0,0", 0, 2, 4, true);
+                                          + "\n0,0,2,0,0", 0, 2, 4);
             
             assert(expected, got);
         }
 
         /**
-         * TODO: An interior, offset tile indexes by 4.
+         * An interior, offset tile indexes by 24.
          * Expect combined edgings.
          */
-        public function testAutoTileInner():void
+        public function testAutoTileInterior():void
         {
-            var expected:String =             "?,?,?,17,8" 
-                                          + "\n?,?,?,?,17"
-                                          + "\n?,?,?,?,?"
-                                          + "\n15,?,?,?,11"
-                                          + "\n6,15,?,11,5";
+            var expected:String =             "39,39,29,17,8" 
+                                          + "\n39,39,37,28,17"
+                                          + "\n27,35,39,29,24"
+                                          + "\n15,26,27,25,11"
+                                          + "\n6,15,24,11,5";
             var got:String = Tilemap.autoTile("2,2,2,0,0" 
                                           + "\n2,2,2,2,0"
                                           + "\n2,2,2,2,2"
                                           + "\n0,2,2,2,0"
-                                          + "\n0,0,2,0,0", 0, 2, 4, true);
+                                          + "\n0,0,2,0,0", 0, 2, 4, 24);
             
             assert(expected, got);
         }

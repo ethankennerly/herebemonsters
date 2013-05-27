@@ -11,6 +11,7 @@ package
 
 	{
         public static var edgeOffset:int = 4;
+        public static var interiorOffset:int = 24;
 		public var player:Player;
 		public var bullets:FlxGroup;
 		public var enemies:FlxGroup;
@@ -46,7 +47,7 @@ package
 			Level.setCollideIndex(level, edgeOffset + 15);
 			level_0 = level as Level_0;
 			Level.setTilemap(level_0.layerFog, 2);
-            level_0.layerMap3.loadMap(Tilemap.autoTile(new level_0.CSV_Map3, 0, 2, edgeOffset), level_0.Img_Map3);
+            level_0.layerMap3.loadMap(Tilemap.autoTile(new level_0.CSV_Map3, 0, 2, edgeOffset, interiorOffset), level_0.Img_Map3);
 
 			// collision group
 			this.mobiles = new FlxGroup();
